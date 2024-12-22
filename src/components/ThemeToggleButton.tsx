@@ -9,7 +9,7 @@ export default function ThemeToggleButton() {
 
   return (
     <button
-      className="fixed w-[3rem] h-[3rem] hover:scale-[1.15] rounded-full bottom-5 right-5 flex items-center justify-center bg-black bg-opacity-10 transition-all"
+      className="w-[3rem] h-[3rem] hover:scale-[1.15] rounded-full bottom-5 right-5 flex items-center justify-center bg-black bg-opacity-10 transition-all"
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
     >
       {theme === 'light' ? (
