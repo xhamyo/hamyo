@@ -1,7 +1,7 @@
 "use client";
 
 import { useTheme } from 'next-themes';
-import { FaMoon, FaSun } from "react-icons/fa";
+import { SunOutlined, MoonOutlined } from "@ant-design/icons";
 
 export default function ThemeToggleButton() {
   
@@ -9,13 +9,13 @@ export default function ThemeToggleButton() {
 
   return (
     <button
-      className="w-[3rem] h-[3rem] hover:scale-[1.15] rounded-full bottom-5 right-5 flex items-center justify-center bg-black bg-opacity-10 transition-all"
+      className="w-[3rem] h-[3rem] hover:scale-[1.15] rounded-md flex items-center justify-center transition-all duration-200 ease-in-out bg-gray-200 dark:bg-gray-800"
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
     >
       {theme === 'light' ? (
-        <FaMoon size={24} />
+        <MoonOutlined className="text-2xl"/>
       ) : (
-        <FaSun size={24} />
+        <SunOutlined className="text-2xl"/>
       )}
     </button>
   );
