@@ -30,7 +30,7 @@ export default function Introduction() {
                 animate={{ y: "0%", opacity: 1 }}
                 exit={{ y: "-100%", opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="text-indigo-500 font-bold w-[14.5rem] md:w-[36rem] md:h-[4rem]"
+                className="text-indigo-500 font-bold w-[15rem] md:w-[36rem] md:h-[4rem]"
               >
                 {words[index]}
               </motion.div>
