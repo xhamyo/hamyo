@@ -20,13 +20,17 @@ export default function About() {
             Name:<br />
             Country:<br />
             Contact:<br />
-            Email:<br />
+            Email:
           </h3>
           <h3 className="md:text-lg text-gray-600 dark:text-gray-300">
             Han Yu<br />
             Singapore<br />
-            (+65) 8716 4969<br />
-            e1115696@u.nus.edu<br />
+            <a href="tel:+6587164969" className="hover:underline hover:text-gray-700 hover:dark:text-gray-400">
+              (+65) 8716 4969<br />
+            </a>
+            <a href="mailto:e1115696@u.nus.edu" className="hover:underline hover:text-gray-700 hover:dark:text-gray-400">
+              e1115696@u.nus.edu
+            </a>
           </h3>
         </div>
         <div className="py-1"></div>
