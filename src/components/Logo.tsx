@@ -16,7 +16,7 @@ export default function Logo() {
       <button
         data-testid='home-button'
         onClick={() => {router.push("./");}}
-        className="hover:scale-[1.05] transition-all duration-200 ease-in-out">
+        className="fixed top-4 left-4 hover:scale-[1.05] transition-all duration-200 ease-in-out">
         <div className="flex flex-row items-center space-x-1">
           <Image alt="logo" src={logoSource} width={50} height={50} />
           <div className="flex flex-col">
