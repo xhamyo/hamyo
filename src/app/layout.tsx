@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <ThemeContextProvider>
-          <div className="fixed left-0 right-0 w-[100vm] h-[6rem] bg-zinc-100 dark:bg-zinc-950 z-10"></div>
+          <div className="fixed left-0 right-0 w-[100vm] h-[6rem] bg-zinc-100 dark:bg-zinc-950 shadow-lg z-10"></div>
           <HeaderBar />
           <MenuBar />
           <Logo />

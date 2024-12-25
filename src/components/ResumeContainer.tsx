@@ -18,7 +18,7 @@ const ResumeContainer: React.FC<ResumeContainerProps> = ({ icon, date, title, en
       <div className="flex-col">
         <h1 className="text-indigo-500 font-bold">{date}</h1>
         <h2 className="font-bold text-lg md:text-xl">{title}</h2>
-        <h3 className="font-bold">{entity}</h3>
+        <h3 className="font-bold italic">{entity}</h3>
         <h4 className="font-light">{content}</h4>
       </div>
     </div>

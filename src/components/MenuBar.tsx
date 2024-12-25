@@ -16,7 +16,7 @@ const HamburgerMenu: React.FC = () => {
       </button>
 
       {isOpen && (
-        <div className="md:hidden absolute top-12 right-0 rounded-md bg-gray-300 dark:bg-gray-900 shadow-md">
+        <div className="md:hidden absolute top-12 right-0 rounded-md bg-gray-300 dark:bg-gray-900 shadow-lg">
           <div className="flex flex-col px-3 py-3 space-y-3 text-xl font-semibold">
             <a
               href="#about"

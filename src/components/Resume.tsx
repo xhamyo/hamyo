@@ -169,7 +169,7 @@ export default function Resume() {
         <div className="flex flex-row items-center justify-center">
           <a href="https://drive.google.com/uc?export=download&id=1nWrPr083vMk0N0q0wgn8YYsfy4eSttLT"
             download="HANYU_RESUME.pdf"
-            className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold text-2xl tracking-tight bg-indigo-600 hover:bg-indigo-700 text-center"
+            className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold text-2xl tracking-wide bg-indigo-600 hover:bg-indigo-700 text-center"
           >
             <DownloadOutlined /> Resume
           </a>
