@@ -30,7 +30,7 @@ export default function Contact() {
                   <h3>Instagram</h3>
                   <h3>Telegram</h3>
                 </div>
-                <div className="flex flex-col font-light text-gray-200 text-xs md:text-lg">
+                <div className="flex flex-col font-light text-gray-700 dark:text-gray-200 text-xs md:text-lg">
                   <a href="tel:+6587164969" className="hover:underline hover:text-gray-700 hover:dark:text-gray-400">
                     (+65) 8716 4969<br />
                   </a>
