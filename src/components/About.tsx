@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:w-[48rem]">
       <div className="px-3 py-3 md:px-4 md:py-4 flex flex-col justify-center space-y-2 md:space-y-4">
-        <div className="flex flex-row space-x-2 text-red-700 dark:text-red-800 font-semibold tracking-light">
+        <div className="flex flex-row space-x-2 text-orange-500 dark:text-orange-600 font-semibold tracking-light">
           <IdcardOutlined className="text-3xl md:text-4xl"/>
           <h1 className="text-2xl md:text-3xl">
             About Me
@@ -38,10 +38,10 @@ export default function About() {
           <a href="https://drive.google.com/uc?export=download&id=1nWrPr083vMk0N0q0wgn8YYsfy4eSttLT" download="HANYU_RESUME.pdf" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 text-center">
             <DownloadOutlined /> Resume
           </a>
-          <a href="https://www.instagram.com/hanyu_____/" target="_blank" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 justify-center">
+          <a href="https://www.instagram.com/hanyu_____" target="_blank" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 justify-center">
             <InstagramOutlined />
           </a>
-          <a href="https://www.linkedin.com/in/han-yu-5aa302248/" target="_blank" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 justify-center">
+          <a href="https://www.linkedin.com/in/han-yu-5aa302248" target="_blank" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 justify-center">
             <LinkedinFilled />
           </a>
           <a href="https://github.com/xhamyo" target="_blank" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 justify-center">
