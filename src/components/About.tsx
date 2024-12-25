@@ -4,11 +4,11 @@ import { IdcardOutlined, InstagramOutlined, LinkedinFilled, GithubFilled } from 
 export default function About() {
   
   return (
-    <div className="border-4 rounded-xl border-gray-200 bg-gray-100 dark:border-gray-900 dark:bg-gray-800 w-[90vw] md:w-[48rem]">
-      <div className="px-2 py-2 md:px-4 md:py-4 flex flex-col justify-center space-y-2 md:space-y-4">
-        <div className="flex flex-row space-x-2 text-red-700 font-semibold tracking-light">
-          <IdcardOutlined className="text-3xl md:text-6xl"/>
-          <h1 className="text-2xl md:text-5xl">
+    <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:w-[48rem]">
+      <div className="px-3 py-3 md:px-4 md:py-4 flex flex-col justify-center space-y-2 md:space-y-4">
+        <div className="flex flex-row space-x-2 text-red-700 dark:text-red-800 font-semibold tracking-light">
+          <IdcardOutlined className="text-3xl md:text-4xl"/>
+          <h1 className="text-2xl md:text-3xl">
             About Me
           </h1>
         </div>
