@@ -31,7 +31,6 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, images, imag
               animate={{ x: "0%", opacity: 1 }}
               exit={{ x: "-100%", opacity: 1 }}
               transition={{ duration: 0.75 }}
-              className="w-full flex justify-center items-center"
             >
               {images[imageIndex]}
             </motion.div>
@@ -45,7 +44,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, images, imag
               animate={{ x: "0%", opacity: 1 }}
               exit={{ x: "-100%", opacity: 1 }}
               transition={{ duration: 0.75 }}
-              className="h-full flex bg-gray-500 justify-center items-center font-semibold italic text-lg md:text-xl"
+              className="bg-gray-500 text-center font-semibold italic text-lg md:text-xl"
             >
               {imageDescriptions[imageIndex]}
             </motion.div>
