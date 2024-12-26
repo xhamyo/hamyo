@@ -23,7 +23,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, images, imag
   return (
     <div className="flex flex-col md:flex-row p-3 md:p-4 space-y-2 md:space-x-4 rounded-lg hover:scale-[1.01] shadow-xl dark:shadow-gray-500 dark:shadow-md transition-all duration-200 ease-in-out dark:bg-gradient-to-r dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
       
-      <div className="flex flex-col md:w-1/2 space-y-2 items-center">
+      <div className="flex flex-col md:w-1/2 items-center">
         <div className="relative overflow-hidden hover:scale-[1.1] transition-all duration-200 ease-in-out">
           <AnimatePresence mode="popLayout">
             <motion.div
