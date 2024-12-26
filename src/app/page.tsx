@@ -1,9 +1,9 @@
 
-import About from "../components/About";
-import Contact from "../components/Contact";
-import Introduction from "../components/Introduction";
-import Projects from "../components/Projects";
-import Resume from "../components/Resume";
+import About from "../components/sections/About";
+import Contact from "../components/common/Contact";
+import Introduction from "../components/sections/Introduction";
+import Projects from "../components/sections/Projects";
+import Resume from "../components/sections/Resume";
 
 export default function Home() {
 
