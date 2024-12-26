@@ -21,8 +21,10 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, images, imag
   }, []);
   
   return (
-    <div className="flex flex-col md:flex-row rounded-lg hover:scale-[1.01] shadow-xl dark:shadow-gray-500 dark:shadow-md transition-all duration-200 ease-in-out dark:bg-gradient-to-r dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
-      <div className="flex-col p-3 md:p-4 w-full md:w-1/2 space-y-2">
+    <div className="relative flex flex-col md:flex-row rounded-lg hover:scale-[1.01] shadow-xl dark:shadow-gray-500 dark:shadow-md transition-all duration-200 ease-in-out dark:bg-gradient-to-r dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
+      
+      {/* Image and Image Description */}
+      <div className="relative p-3 md:p-4 md:w-1/2 space-y-2">
         <div className="relative overflow-hidden hover:scale-[1.01] transition-all duration-200 ease-in-out">
           <AnimatePresence mode="popLayout">
             <motion.div
@@ -51,7 +53,9 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, images, imag
           </AnimatePresence>
         </div>
       </div>
-      <div className="p-3 md:p-4 md:w-1/2 flex flex-col space-y-2">
+
+      {/* Title and Content */}
+      <div className="flex flex-col p-3 md:p-4 md:w-1/2 space-y-2">
         <h1 className="font-bold text-lg md:text-xl">
           {title}
         </h1>
