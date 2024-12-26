@@ -107,21 +107,21 @@ export default function Resume() {
           date="2024"
           title="NUS Orbital 2024, Apollo 11 (Advanced)"
           entity="National Unviersity of Singapore (NUS)"
-          content="NULL"
+          content="This course empowers students to engage in self-learning to develop practical applications using current technology, with a strong emphasis on adhering to software engineering principles."
         />
         <ResumeContainer
           icon={<BookOutlined />}
           date="2024"
           title="CS50's Introduction to Game Development"
           entity="Harvard University"
-          content="NULL"
+          content="This course focuses on the development of 2D and 3D games using frameworks like Unity and LÖVE 2D, as well as the languages C# and Lua. Topics include the principles of graphics, animation, sound, and collision detection."
         />
         <ResumeContainer
           icon={<BookOutlined />}
           date="2024"
           title="CS50's Introduction to Computer Science"
           entity="Harvard University"
-          content="NULL"
+          content="This course teaches students how to solve problems, with an emphasis on correctness, design, and style. Topics include computational thinking, abstraction, algorithms, data structures, resource management, cybersecurity, and web programming."
         />
         
         {/* Technology Stack */}
