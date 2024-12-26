@@ -21,7 +21,7 @@ export default function Projects() {
             <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>,
             <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>,
             <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>]}
-          imageDescriptions={["Project Description 1", "Project Description 2", "Project Description 3"]}
+          imageDescriptions={["Project Description", "Project Long Description", "Project Longest Long Description 3"]}
           content="Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content."
         />
       </div>
