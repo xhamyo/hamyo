@@ -32,7 +32,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, images, imag
               animate={{ x: "0%", opacity: 1 }}
               exit={{ x: "-100%", opacity: 1 }}
               transition={{ duration: 0.75 }}
-              className="border-4 border-red-500 w-[22rem]"
+              className="border-4 border-red-500 w-[80vw] h-[45vw] md:w-[22rem]"
             >
               {images[imageIndex]}
             </motion.div>
@@ -46,7 +46,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, images, imag
               animate={{ x: "0%", opacity: 1 }}
               exit={{ x: "-100%", opacity: 1 }}
               transition={{ duration: 0.75 }}
-              className="border-4 border-red-500 w-[22rem] text-center font-semibold italic text-lg md:text-xl"
+              className="border-4 border-red-500 w-[80vw] md:w-[22rem] text-center font-semibold italic text-lg md:text-xl"
             >
               {imageDescriptions[imageIndex]}
             </motion.div>
