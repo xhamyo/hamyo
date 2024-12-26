@@ -17,7 +17,7 @@ export default function Introduction() {
   }, []);
 
   return (
-    <div className="rounded-lg bg-zinc-100 dark:bg-gray-950 w-[90vw] md:w-[48rem]">
+    <div className="rounded-lg bg-zinc-100 dark:bg-gray-950 w-[90vw] md:w-[48rem] shadow-lg dark:shadow-gray-800">
       <div className="flex flex-row px-3 py-3 md:px-4 md:py-4 items-center space-x-2 md:space-x-4">
         <Image alt="logo" src="/images/hanyu.png" width={90} height={90} className="rounded-md w-[15vw]"/>
         <div className="text-2xl md:text-5xl tracking-tight">
@@ -30,7 +30,7 @@ export default function Introduction() {
                 animate={{ y: "0%", opacity: 1 }}
                 exit={{ y: "-100%", opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="text-indigo-500 font-semibold w-[65vw] md:w-[38rem]"
+                className="text-indigo-500 font-semibold w-[65vw] md:w-[38rem] md:h-[3.5rem]"
               >
                 {words[index]}
               </motion.div>

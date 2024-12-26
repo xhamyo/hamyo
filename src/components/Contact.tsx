@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function Contact() {
   
   return (
-    <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:w-[48rem]">
+    <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:w-[48rem] shadow-lg dark:shadow-gray-800">
       <div className="px-3 py-3 md:px-4 md:py-4 flex flex-col justify-center space-y-2 md:space-y-4">
-        <div className="flex flex-row space-x-2 text-orange-500 dark:text-orange-600 font-semibold tracking-light">
+        <div className="flex flex-row space-x-2 font-semibold tracking-light">
           <FaPhoneAlt className="text-3xl md:text-4xl"/>
           <h1 className="text-2xl md:text-3xl">
             Contact Me
@@ -50,6 +50,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
+          <div className="h-3 md:h-6"></div>
         </div>
       </div>
     </div>

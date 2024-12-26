@@ -11,7 +11,7 @@ interface ResumeContainerProps {
 }
 const ResumeContainer: React.FC<ResumeContainerProps> = ({ icon, date, title, entity, content }) => {
   return (
-    <div className="flex flex-row space-x-2 text-md md:text-lg font-medium">
+    <div className="flex flex-row space-x-3 md:space-x-4 text-md md:text-lg font-medium">
       <div className="text-indigo-500 text-3xl md:text-4xl tracking-tight">
         {icon}
       </div>
