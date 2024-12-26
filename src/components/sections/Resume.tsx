@@ -163,6 +163,9 @@ export default function Resume() {
           icon3={<FaGitAlt />}
           technology3="Git"
         />
+        <h2 className="text-center font-light text-gray-600 dark:text-gray-300">
+          and many more!
+        </h2>
         
         {/* Resume Download Link */}
         <div className="py-1"></div>
