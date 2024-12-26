@@ -1,6 +1,6 @@
 
 import About from "../components/sections/About";
-import Contact from "../components/common/Contact";
+import Contact from "../components/sections/Contact";
 import Introduction from "../components/sections/Introduction";
 import Projects from "../components/sections/Projects";
 import Resume from "../components/sections/Resume";
