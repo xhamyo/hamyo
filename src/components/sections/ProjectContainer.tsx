@@ -22,7 +22,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, images, imag
   
   return (
     <div className="flex flex-col md:flex-row">
-      <div className="border-2 border-red-500 p-3 md:p-4 md:w-1/2 flex flex-col">
+      <div className="border-2 border-red-500 p-3 md:p-4 md:w-1/2 flex flex-col space-y-2 sm:h-[57.5vw]">
         <div className="relative overflow-hidden">
           <AnimatePresence mode="popLayout">
             <motion.div
