@@ -35,22 +35,9 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
               animate={{ x: "0%", opacity: 1 }}
               exit={{ x: "-100%", opacity: 1 }}
               transition={{ duration: 1.0 }}
-              className="w-[80vw] h-[45vw] md:w-[22rem] md:h-[12.375rem]"
+              className="border-2 border-red-500 flex flex-col w-[80vw] md:w-[22rem] text-center font-semibold italic text-lg md:text-xl"
             >
               {images[imageIndex]}
-            </motion.div>
-          </AnimatePresence>
-        </div>
-        <div className="flex flex-row relative overflow-hidden hover:scale-[1.01] transition-all duration-200 ease-in-out">
-          <AnimatePresence mode="popLayout">
-            <motion.div
-              key={imageIndex}
-              initial={{ x: "100%", opacity: 1 }}
-              animate={{ x: "0%", opacity: 1 }}
-              exit={{ x: "-100%", opacity: 1 }}
-              transition={{ duration: 1.0 }}
-              className="w-[80vw] md:w-[22rem] text-center font-semibold italic text-lg md:text-xl"
-            >
               {imageDescriptions[imageIndex]}
             </motion.div>
           </AnimatePresence>
