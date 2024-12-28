@@ -59,7 +59,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
         <h1 className="font-bold text-lg md:text-xl">
           {title}
         </h1>
-        <div className="flex flex-row justify-between font-bold">
+        <div className="flex text-sm flex-row justify-between font-bold">
           <h1 className="text-justify text-gray-600 dark:text-gray-300">
             {type}
           </h1>
