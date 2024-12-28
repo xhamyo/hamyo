@@ -27,7 +27,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
     <div className="flex flex-col md:flex-row p-3 md:p-4 space-y-2 md:space-x-4 md:space-y-0 rounded-lg hover:scale-[1.01] shadow-lg dark:shadow-gray-500 dark:shadow-md transition-all duration-200 ease-in-out dark:bg-gradient-to-r dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
       
       {/* Image and Description */}
-       <div className="border-2 border-red-500 flex flex-col relative overflow-hidden items-center md:w-1/2 hover:scale-[1.01] transition-all duration-200 ease-in-out">
+       <div className="flex flex-col relative overflow-hidden items-center md:w-1/2 hover:scale-[1.01] transition-all duration-200 ease-in-out">
         <AnimatePresence mode="popLayout">
           <motion.div
             key={imageIndex}
@@ -35,16 +35,27 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
             animate={{ x: "0%", opacity: 1 }}
             exit={{ x: "-100%", opacity: 1 }}
             transition={{ duration: 1.0 }}
-            className="flex flex-col w-full text-center font-semibold italic text-lg md:text-xl"
+            className="w-full aspect-[16/9]"
           >
             {images[imageIndex]}
+          </motion.div>
+        </AnimatePresence>
+        <AnimatePresence mode="popLayout">
+          <motion.div
+            key={imageIndex}
+            initial={{ x: "100%", opacity: 1 }}
+            animate={{ x: "0%", opacity: 1 }}
+            exit={{ x: "-100%", opacity: 1 }}
+            transition={{ duration: 1.0 }}
+            className="w-full text-center font-semibold italic text-lg md:text-xl"
+          >
             {imageDescriptions[imageIndex]}
           </motion.div>
         </AnimatePresence>
       </div>
 
       {/* Title and Content */}
-      <div className="border-2 border-red-500 flex flex-col md:w-1/2">
+      <div className="flex flex-col md:w-1/2">
         <h1 className="font-bold text-lg md:text-xl">
           {title}
         </h1>
