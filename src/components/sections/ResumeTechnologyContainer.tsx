@@ -3,11 +3,11 @@ import { ReactNode } from "react";
 
 interface ResumeTechnologyContainerProps {
   icon1: ReactNode;
-  technology1: String;
+  technology1: string;
   icon2: ReactNode;
-  technology2: String;
+  technology2: string;
   icon3: ReactNode;
-  technology3: String;
+  technology3: string;
 }
 const ResumeTechnologyContainer: React.FC<ResumeTechnologyContainerProps> = ({ icon1, technology1, icon2, technology2, icon3, technology3 }) => {
   return (

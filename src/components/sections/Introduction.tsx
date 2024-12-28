@@ -17,7 +17,7 @@ export default function Introduction() {
   }, []);
 
   return (
-    <div className="rounded-lg bg-zinc-100 dark:bg-gray-950 w-[90vw] md:w-[48rem] shadow-lg dark:shadow-gray-800">
+    <div className="rounded-lg bg-zinc-100 dark:bg-gray-950 w-[90vw] md:w-[50vw] shadow-lg dark:shadow-gray-800">
       <div className="flex flex-row px-3 py-3 md:px-4 md:py-4 items-center space-x-2 md:space-x-4">
         <Image alt="logo" src="/images/hanyu.png" width={90} height={90} className="rounded-md w-[15vw]"/>
         <div className="text-2xl md:text-5xl tracking-tight">

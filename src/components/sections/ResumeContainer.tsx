@@ -3,9 +3,9 @@ import { ReactNode } from "react";
 
 interface ResumeContainerProps {
   icon: ReactNode;
-  date: String;
-  title: String;
-  entity: String;
+  date: string;
+  title: string;
+  entity: string;
   content: ReactNode;
 
 }
