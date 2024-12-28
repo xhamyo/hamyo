@@ -75,8 +75,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
             <a
               href={link}
               target="_blank"
-              rel="noopener noreferrer"
-              className="flex underline hover:scale-[1.01] hover:text-gray-800 hover:dark:text-gray-100"
+              className="flex underline italic hover:scale-[1.01] hover:text-gray-800 hover:dark:text-gray-100"
             >
               {link}
             </a>
