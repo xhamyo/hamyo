@@ -17,7 +17,7 @@ export default function Contact() {
           <h1 className="md:text-xl text-gray-600 dark:text-gray-300">
               Please contact me for any enquiries!
           </h1>
-          <div className="flex flex-row justify-center items-center px-3 py-3 md:px-4 md:py-4 space-x-2 rounded-xl shadow-xl w-[80vw] h-[45.7vw] md:w-[30rem] md:h-[17rem] hover:scale-[1.05] shadow-xl shadow-gray-600 dark:shadow-gray-300 dark:shadow-md transition-all duration-200 ease-in-out bg-gradient-to-r from-gray-500 via-gray-400 to-gray-300 dark:from-gray-800 dark:via-gray-600 dark:to-gray-500">
+          <div className="flex flex-row justify-center items-center px-3 py-3 md:px-4 md:py-4 space-x-2 rounded-xl shadow-xl w-[85vw] h-[48.6vw] md:w-[30rem] md:h-[17rem] hover:scale-[1.05] shadow-xl shadow-gray-600 dark:shadow-gray-300 dark:shadow-md transition-all duration-200 ease-in-out bg-gradient-to-r from-gray-500 via-gray-400 to-gray-300 dark:from-gray-800 dark:via-gray-600 dark:to-gray-500">
             <Image alt="logo" src="/images/hanyu.png" width={90} height={90} className="w-1/3 border-8 border-zinc-900 rounded-full shadow-2xl hover:scale-[1.05] transition-all duration-200 ease-in-out"/>
             <div className="flex flex-col">
               <h1 className="text-indigo-600 dark:text-indigo-300 font-bold text-2xl">Han Yu</h1>
