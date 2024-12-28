@@ -54,11 +54,12 @@ export default function Projects() {
           date="2023"
           type="Full-Stack Web Development"
           images={[
-            <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>,
-            <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>,
-            <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>]}
-          imageDescriptions={["Project Description", "Project Long Description", "Project Longest Long Description 3"]}
-          content="Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content."
+            <Image alt="logo" src="/images/projects/hackX/hacX1.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/hackX/hacX2.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/hackX/hacX3.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/hackX/hacX4.png" width={1920} height={1080} className="w-full"/>]}
+          imageDescriptions={["HacX! Grand Finals", "HackX! Semi-Finals", "Overview Dashboard", "Inmate Vitals Dashboard"]}
+          content="Developed a real-time inmate welfare monitoring system for the Singapore Prison Service. Our team leveraged Microsoft Azure computer vision technology for fall detection, corroborated with vitals monitored through pre-existing wearable devices for an integrated and comprehensive overview."
         />
       </div>
       <div className="h-2"></div>
