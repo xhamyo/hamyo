@@ -2,6 +2,8 @@
 
 import { ReactNode, useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { BsPersonFill } from "react-icons/bs";
+import { Tooltip } from "antd";
 
 interface ProjectContainerProps {
   title: string;
@@ -10,9 +12,10 @@ interface ProjectContainerProps {
   images: ReactNode[];
   imageDescriptions: string[];
   content: string;
+  nCollaborators?: number;
   link?: string;
 }
-const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, images, imageDescriptions, content, link }) => {
+const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, images, imageDescriptions, content, nCollaborators = 1, link }) => {
   
   const [ imageIndex, setImageIndex ] = useState(0);
 
@@ -47,7 +50,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
             animate={{ x: "0%", opacity: 1 }}
             exit={{ x: "-100%", opacity: 1 }}
             transition={{ duration: 1.0 }}
-            className="w-full text-center font-semibold italic text-lg md:text-xl"
+            className="w-full text-center font-semibold italic text-lg"
           >
             {imageDescriptions[imageIndex]}
           </motion.div>
@@ -56,17 +59,35 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
 
       {/* Title and Content */}
       <div className="flex flex-col md:w-1/2">
-        <h1 className="font-bold text-lg md:text-xl">
-          {title}
-        </h1>
+
+        {/* Title and Collaborators */}
         <div className="flex text-sm flex-row justify-between font-bold">
-          <h1 className="text-justify text-gray-600 dark:text-gray-300">
+          <h1 className="text-lg">
+            {title}
+          </h1>
+          <Tooltip
+            placement="left"
+            title={nCollaborators == 1 ? "Independent project" : `Team size: ${nCollaborators}`}
+          >
+            <div className="flex flex-row items-center">
+              {Array.from({ length: nCollaborators }).map((_, index) => (
+                <BsPersonFill key={index} className="text-blue-600 dark:text-blue-500 text-lg -ml-2" />
+              ))}
+            </div>
+          </Tooltip>
+        </div>
+
+        {/* Project Type and Date */}
+        <div className="flex text-sm flex-row justify-between font-bold">
+          <h1 className="text-gray-600 dark:text-gray-300">
             {type}
           </h1>
           <h1 className="text-indigo-500">
             {date}
           </h1>
         </div>
+
+        {/* Link (if any) */}
         {link && (
           <div className="flex flex-row space-x-1 md:space-x-2 font-light text-sm tracking-tight">
             <h1 className="text-gray-600 dark:text-gray-300">
@@ -81,6 +102,8 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
             </a>
           </div>
         )}
+
+        {/* Content */}
         <h1 className="text-justify font-light text-gray-600 dark:text-gray-300">
           {content}
         </h1>

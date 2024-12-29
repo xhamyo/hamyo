@@ -28,15 +28,37 @@ export default function Projects() {
           link="https://hamyo.vercel.app"
         />
         <ProjectContainer
+          title="MATER for Vehicle Workshops"
+          date="2024"
+          type="Java Application Development"
+          images={[
+            <Image alt="logo" src="/images/projects/mater/mater1.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/mater/mater2.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/mater/mater3.png" width={1920} height={1080} className="w-full"/>,
+          ]}
+          imageDescriptions={["Client Management", "Vehicle Management", "Information Overview"]}
+          content="Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content."
+          nCollaborators={5}
+          link="https://hamyo.vercel.app"
+        />
+        <ProjectContainer
           title="Raining Fire"
           date="2024"
           type="2D Game Development"
           images={[
-            <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>,
-            <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>,
-            <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>]}
-          imageDescriptions={["Project Description", "Project Long Description", "Project Longest Long Description 3"]}
+            <Image alt="logo" src="/images/projects/rainingFire/rainingFire1.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/rainingFire/rainingFire2.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/rainingFire/rainingFire3.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/rainingFire/rainingFire4.png" width={1920} height={1080} className="w-full"/>
+          ]}
+          imageDescriptions={[
+            "Resupply at Friendly Base",
+            "Player Plane Mechanics",
+            "Destroy Red Land Buildings",
+            "Enemy Base Mechanics"
+          ]}
           content="Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content."
+          link="https://youtu.be/pfm4cjbQtgI"
         />
         <ProjectContainer
           title="PaperHans"
@@ -58,6 +80,7 @@ export default function Projects() {
             "Playground Environment",
             "News & Sentiment Analysis"
           ]}
+          nCollaborators={2}
           content="Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content."
         />
         <ProjectContainer
@@ -76,6 +99,7 @@ export default function Projects() {
             "Overview Dashboard",
             "Inmate Vitals Dashboard"
           ]}
+          nCollaborators={4}
           content="Developed a real-time inmate welfare monitoring system for the Singapore Prison Service. Our team leveraged Microsoft Azure computer vision technology for fall detection, corroborated with vitals monitored through pre-existing wearable devices for an integrated and comprehensive overview."
         />
       </div>
