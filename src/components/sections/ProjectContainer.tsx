@@ -50,7 +50,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
             animate={{ x: "0%", opacity: 1 }}
             exit={{ x: "-100%", opacity: 1 }}
             transition={{ duration: 1.0 }}
-            className="w-full text-center font-semibold italic text-lg"
+            className="w-[80vw] md:w-full text-center font-semibold italic text-lg"
           >
             {imageDescriptions[imageIndex]}
           </motion.div>
@@ -61,8 +61,8 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
       <div className="flex flex-col md:w-1/2">
 
         {/* Title and Collaborators */}
-        <div className="flex text-sm flex-row justify-between font-bold">
-          <h1 className="text-lg">
+        <div className="flex flex-row text-md justify-between font-bold">
+          <h1>
             {title}
           </h1>
           <Tooltip
@@ -71,7 +71,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
           >
             <div className="flex flex-row items-center">
               {Array.from({ length: nCollaborators }).map((_, index) => (
-                <BsPersonFill key={index} className="text-blue-600 dark:text-blue-500 text-lg -ml-2" />
+                <BsPersonFill key={index} className="text-blue-600 dark:text-blue-500 -ml-2" />
               ))}
             </div>
           </Tooltip>

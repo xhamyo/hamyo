@@ -20,11 +20,13 @@ export default function Projects() {
           date="2024"
           type="Static Front-End Web Development"
           images={[
-            <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>,
-            <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>,
-            <Image alt="logo" src="/images/placeholder.png" width={50} height={50} className="w-full"/>]}
-          imageDescriptions={["Project Description", "Project Long Description", "Project Longest Long Description 3"]}
-          content="Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content."
+            <Image alt="logo" src="/images/projects/portfolioPage/portfolioPage1.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/portfolioPage/portfolioPage2.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/portfolioPage/portfolioPage3.png" width={1920} height={1080} className="w-full"/>,
+            <Image alt="logo" src="/images/projects/portfolioPage/portfolioPage4.png" width={1920} height={1080} className="w-full"/>
+          ]}
+          imageDescriptions={["Introduction", "Resume", "Projects", "Contact"]}
+          content="Personal portfolio page, designed to showcase my skills, achievements, and experiences."
           link="https://hamyo.vercel.app"
         />
         <ProjectContainer
@@ -37,7 +39,7 @@ export default function Projects() {
             <Image alt="logo" src="/images/projects/mater/mater3.png" width={1920} height={1080} className="w-full"/>,
           ]}
           imageDescriptions={["Client Management", "Vehicle Management", "Information Overview"]}
-          content="Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content."
+          content="Iterative brownfield project aimed at creating an efficient vehicle management system for Singapore workshops."
           nCollaborators={5}
           link="https://hamyo.vercel.app"
         />
@@ -57,7 +59,7 @@ export default function Projects() {
             "Destroy Red Land Buildings",
             "Enemy Base Mechanics"
           ]}
-          content="Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content."
+          content="Inspired by Skies of War (2011) released by Youda Games, the objective of the game is to destroy all Red Land buildings, and enemy bunkers, airport & planes."
           link="https://youtu.be/pfm4cjbQtgI"
         />
         <ProjectContainer
@@ -81,7 +83,7 @@ export default function Projects() {
             "News & Sentiment Analysis"
           ]}
           nCollaborators={2}
-          content="Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content. Project content."
+          content="Cryptocurrency web application designed to educate and inform both novice and experienced enthusiasts alike through specially curated lessons, and real-time prices and sentiments analysis."
         />
         <ProjectContainer
           title="HacX! Hack for Public Safety"
@@ -100,7 +102,7 @@ export default function Projects() {
             "Inmate Vitals Dashboard"
           ]}
           nCollaborators={4}
-          content="Developed a real-time inmate welfare monitoring system for the Singapore Prison Service. Our team leveraged Microsoft Azure computer vision technology for fall detection, corroborated with vitals monitored through pre-existing wearable devices for an integrated and comprehensive overview."
+          content="Real-time inmate welfare monitoring system for the Singapore Prison Service, leveraging Microsoft Azure computer vision technology for fall detection, corroborated with vitals monitored through pre-existing wearable devices for an integrated and comprehensive overview."
         />
       </div>
       <div className="h-2"></div>
