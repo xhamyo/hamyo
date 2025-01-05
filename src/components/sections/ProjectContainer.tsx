@@ -11,11 +11,10 @@ interface ProjectContainerProps {
   type: string;
   images: ReactNode[];
   imageDescriptions: string[];
-  content: string;
   nCollaborators?: number;
   link?: string;
 }
-const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, images, imageDescriptions, content, nCollaborators = 1, link }) => {
+const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, images, imageDescriptions, nCollaborators = 1, link }) => {
   
   const [ imageIndex, setImageIndex ] = useState(0);
 
@@ -27,10 +26,10 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
   }, []);
   
   return (
-    <div className="flex flex-col md:flex-row p-3 md:p-4 space-y-2 md:space-x-4 md:space-y-0 rounded-lg hover:scale-[1.01] shadow-lg dark:shadow-gray-500 dark:shadow-md transition-all duration-200 ease-in-out dark:bg-gradient-to-r dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
+    <div className="flex flex-col p-3 space-y-2 rounded-lg hover:scale-[1.01] shadow-lg dark:shadow-gray-500 dark:shadow-md transition-all duration-200 ease-in-out dark:bg-gradient-to-r dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
       
       {/* Image and Description */}
-      <div className="flex flex-col relative overflow-hidden items-center md:w-1/2 hover:scale-[1.01] transition-all duration-200 ease-in-out">
+      <div className="flex flex-col relative overflow-hidden hover:scale-[1.01] transition-all duration-200 ease-in-out">
         <AnimatePresence mode="popLayout">
           <motion.div
             key={imageIndex}
@@ -57,11 +56,10 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
         </AnimatePresence>
       </div>
 
-      {/* Title and Content */}
-      <div className="flex flex-col md:w-1/2">
+      <div className="flex flex-col">
 
         {/* Title and Collaborators */}
-        <div className="flex flex-row text-md justify-between font-bold">
+        <div className="flex flex-row text-md md:text-xl justify-between font-bold">
           <h1>
             {title}
           </h1>
@@ -78,7 +76,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
         </div>
 
         {/* Project Type and Date */}
-        <div className="flex text-sm flex-row justify-between font-bold">
+        <div className="flex text-sm md:text-lg flex-row justify-between font-bold">
           <h1 className="text-gray-600 dark:text-gray-300">
             {type}
           </h1>
@@ -89,7 +87,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
 
         {/* Link (if any) */}
         {link && (
-          <div className="flex flex-row space-x-1 md:space-x-2 font-light text-sm tracking-tight">
+          <div className="flex flex-row space-x-1 md:space-x-2 font-light text-sm md:text-lg tracking-tight">
             <h1 className="text-gray-600 dark:text-gray-300">
               Available at:
             </h1>
@@ -102,11 +100,6 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
             </a>
           </div>
         )}
-
-        {/* Content */}
-        <h1 className="text-justify font-light text-gray-600 dark:text-gray-300 text-sm">
-          {content}
-        </h1>
       </div>
     </div>
   );

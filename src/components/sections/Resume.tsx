@@ -12,14 +12,14 @@ export default function Resume() {
     <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:min-w-[48rem] md:w-[50vw] font-semibold tracking-light shadow-lg dark:shadow-gray-800">
       <div className="p-4 md:p-8 flex flex-col justify-center space-y-3 md:space-y-6">
         <div className="flex flex-row space-x-2">
-          <FileTextOutlined className="text-3xl md:text-4xl"/>
-          <h1 className="text-2xl md:text-3xl">
+          <FileTextOutlined className="text-3xl"/>
+          <h1 className="text-2xl">
             Resume
           </h1>
         </div>
 
         {/* Education */}
-        <h1 className="text-center text-2xl md:text-3xl">
+        <h1 className="text-center text-2xl">
           Education
         </h1>
         <ResumeContainer
@@ -81,10 +81,8 @@ export default function Resume() {
         />
         
         {/* Work Experience */}
-        <div className="py-1"></div>
         <div className="w-full h-[2px] bg-gray-400"></div>
-        <div className="py-1"></div>
-        <h1 className="text-center text-2xl md:text-3xl">
+        <h1 className="text-center text-2xl">
           Work Experience
         </h1>
         <ResumeContainer
@@ -96,10 +94,8 @@ export default function Resume() {
         />
 
         {/* Certification */}
-        <div className="py-1"></div>
         <div className="w-full h-[2px] bg-gray-400"></div>
-        <div className="py-1"></div>
-        <h1 className="text-center text-2xl md:text-3xl">
+        <h1 className="text-center text-2xl">
           Certification
         </h1>
         <ResumeContainer
@@ -125,10 +121,8 @@ export default function Resume() {
         />
         
         {/* Technology Stack */}
-        <div className="py-1"></div>
         <div className="w-full h-[2px] bg-gray-400"></div>
-        <div className="py-1"></div>
-        <h1 className="text-center text-2xl md:text-3xl">
+        <h1 className="text-center text-2xl">
           Technology Stack
         </h1>
         <ResumeTechnologyContainer

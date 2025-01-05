@@ -8,8 +8,8 @@ export default function Contact() {
     <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:min-w-[48rem] md:w-[50vw] shadow-lg dark:shadow-gray-800">
       <div className="p-4 md:p-8 flex flex-col justify-center space-y-2 md:space-y-4">
         <div className="flex flex-row space-x-2 font-semibold tracking-light">
-          <FaPhoneAlt className="text-3xl md:text-4xl"/>
-          <h1 className="text-2xl md:text-3xl">
+          <FaPhoneAlt className="text-3xl"/>
+          <h1 className="text-2xl">
             Contact Me
           </h1>
         </div>

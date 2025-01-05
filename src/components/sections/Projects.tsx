@@ -10,8 +10,8 @@ export default function Projects() {
     <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:min-w-[48rem] md:w-[50vw] shadow-lg dark:shadow-gray-800">
       <div className="p-4 md:p-8 flex flex-col justify-center space-y-5">
         <div className="flex flex-row space-x-2 font-semibold tracking-light">
-          <FaHammer className="text-3xl md:text-4xl"/>
-          <h1 className="text-2xl md:text-3xl">
+          <FaHammer className="text-3xl"/>
+          <h1 className="text-2xl">
             My Projects
           </h1>
         </div>
@@ -26,7 +26,6 @@ export default function Projects() {
             <Image alt="logo" src="/images/projects/portfolioPage/portfolioPage4.png" width={1920} height={1080} className="w-full"/>
           ]}
           imageDescriptions={["Introduction", "Resume", "Projects", "Contact"]}
-          content="Personal portfolio page, designed to showcase my skills, achievements, and experiences."
         />
         <ProjectContainer
           title="MATER for Vehicle Workshops"
@@ -38,8 +37,6 @@ export default function Projects() {
             <Image alt="logo" src="/images/projects/mater/mater3.png" width={1920} height={1080} className="w-full"/>,
           ]}
           imageDescriptions={["Client Management", "Vehicle Management", "Information Overview"]}
-          content="Iterative brownfield project aimed at creating an efficient vehicle management system for Singapore workshops, featuring functionalities such as field validation, vehicle issue tracking, and a check-in/check-out system."
-          nCollaborators={5}
         />
         <ProjectContainer
           title="Raining Fire"
@@ -57,8 +54,6 @@ export default function Projects() {
             "Destroy Red Land Buildings",
             "Enemy Base Mechanics"
           ]}
-          content="Inspired by Skies of War (2011) released by Youda Games, the objective of the game is to destroy all Red Land buildings, and enemy bunkers, airport & planes."
-          link="https://youtu.be/pfm4cjbQtgI"
         />
         <ProjectContainer
           title="PaperHans"
@@ -81,7 +76,6 @@ export default function Projects() {
             "News & Sentiment Analysis"
           ]}
           nCollaborators={2}
-          content="Cryptocurrency web application designed to educate and inform both novice and experienced enthusiasts alike through specially curated lessons, and real-time prices and sentiments analysis."
         />
         <ProjectContainer
           title="HacX! Hack for Public Safety"
@@ -100,7 +94,6 @@ export default function Projects() {
             "Inmate Vitals Dashboard"
           ]}
           nCollaborators={4}
-          content="Real-time inmate welfare monitoring system for the Singapore Prison Service, leveraging Microsoft Azure computer vision technology for fall detection, corroborated with vitals monitored through pre-existing wearable devices for an integrated and comprehensive overview."
         />
       </div>
       <div className="h-2"></div>
