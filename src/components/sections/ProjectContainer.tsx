@@ -104,7 +104,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
         )}
 
         {/* Content */}
-        <h1 className="text-justify font-light text-gray-600 dark:text-gray-300">
+        <h1 className="text-justify font-light text-gray-600 dark:text-gray-300 text-sm">
           {content}
         </h1>
       </div>

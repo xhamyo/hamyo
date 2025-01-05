@@ -27,7 +27,6 @@ export default function Projects() {
           ]}
           imageDescriptions={["Introduction", "Resume", "Projects", "Contact"]}
           content="Personal portfolio page, designed to showcase my skills, achievements, and experiences."
-          link="https://hamyo.vercel.app"
         />
         <ProjectContainer
           title="MATER for Vehicle Workshops"
@@ -39,9 +38,8 @@ export default function Projects() {
             <Image alt="logo" src="/images/projects/mater/mater3.png" width={1920} height={1080} className="w-full"/>,
           ]}
           imageDescriptions={["Client Management", "Vehicle Management", "Information Overview"]}
-          content="Iterative brownfield project aimed at creating an efficient vehicle management system for Singapore workshops."
+          content="Iterative brownfield project aimed at creating an efficient vehicle management system for Singapore workshops, featuring functionalities such as field validation, vehicle issue tracking, and a check-in/check-out system."
           nCollaborators={5}
-          link="https://hamyo.vercel.app"
         />
         <ProjectContainer
           title="Raining Fire"

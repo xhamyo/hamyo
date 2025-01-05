@@ -92,7 +92,7 @@ export default function Resume() {
           date="Jan' 2025 - Present"
           title="Data Analyst (Generative AI) Intern"
           entity="Infocomm Media Development Authority (IMDA)"
-          content="NULL"
+          content="To be updated :D"
         />
 
         {/* Certification */}
