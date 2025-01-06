@@ -26,7 +26,13 @@ export default function Projects() {
               <Image alt="logo" src="/images/projects/portfolioPage/portfolioPage3.png" width={1920} height={1080} className="w-full"/>,
               <Image alt="logo" src="/images/projects/portfolioPage/portfolioPage4.png" width={1920} height={1080} className="w-full"/>
             ]}
-            imageDescriptions={["Introduction", "Resume", "Projects", "Contact"]}
+            imageDescriptions={[
+              "Introduction",
+              "Resume",
+              "Projects",
+              "Contact"
+            ]}
+            link="https://hamyo.sg"
           />
           <ProjectContainer
             title="MATER for Vehicle Workshops"
@@ -56,6 +62,7 @@ export default function Projects() {
               "Destroy Red Land Buildings",
               "Enemy Base Mechanics"
             ]}
+            link="https://youtu.be/pfm4cjbQtgI"
           />
           <ProjectContainer
             title="PaperHans"
@@ -78,6 +85,7 @@ export default function Projects() {
               "News & Sentiment Analysis"
             ]}
             nCollaborators={2}
+            link="https://youtu.be/Tw-SxNs0SXg?si=5dyqwYLNFFQYgoJE"
           />
           <ProjectContainer
             title="HacX! Hack for Public Safety"
