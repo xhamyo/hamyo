@@ -125,38 +125,67 @@ export default function Resume() {
         <h1 className="text-center text-2xl">
           Technology Stack
         </h1>
-        <ResumeTechnologyContainer
-          icon1={<FaJava />}
-          technology1="Java"
-          icon2={<FaPython />}
-          technology2="Python"
-          icon3={<IoLogoJavascript />}
-          technology3="JavaScript"
-        />
-        <ResumeTechnologyContainer
-          icon1={<SiTypescript />}
-          technology1="TypeScript"
-          icon2={<FaHtml5 />}
-          technology2="HMTL"
-          icon3={<FaCss3Alt />}
-          technology3="CSS"
-        />
-        <ResumeTechnologyContainer
-          icon1={<SiTailwindcss />}
-          technology1="Tailwind CSS"
-          icon2={<FaReact />}
-          technology2="React"
-          icon3={<SiNextdotjs />}
-          technology3="Next.js"
-        />
-        <ResumeTechnologyContainer
-          icon1={<IoLogoFirebase />}
-          technology1="Firebase"
-          icon2={<FaDatabase />}
-          technology2="SQL"
-          icon3={<FaGitAlt />}
-          technology3="Git"
-        />
+
+        <div className="flex justify-center">
+          <div className="grid grid-cols-3 gap-3 md:w-[32rem] justify-items-center">
+            {/* Row 1 */}
+            <ResumeTechnologyContainer
+              icon={<FaJava />}
+              technology="Java"
+            />
+            <ResumeTechnologyContainer
+              icon={<FaPython />}
+              technology="Python"
+              />
+            <ResumeTechnologyContainer
+              icon={<IoLogoJavascript />}
+              technology="JavaScript"
+            />
+
+            {/* Row 2 */}
+            <ResumeTechnologyContainer
+              icon={<SiTypescript />}
+              technology="TypeScript"
+            />
+            <ResumeTechnologyContainer
+              icon={<FaHtml5 />}
+              technology="HMTL"
+            />
+            <ResumeTechnologyContainer
+              icon={<FaCss3Alt />}
+              technology="CSS"
+            />
+
+            {/* Row 3 */}
+            <ResumeTechnologyContainer
+              icon={<SiTailwindcss />}
+              technology="Tailwind CSS"
+            />
+            <ResumeTechnologyContainer
+              icon={<FaReact />}
+              technology="React"
+            />
+            <ResumeTechnologyContainer
+              icon={<SiNextdotjs />}
+              technology="Next.js"
+            />
+
+            {/* Row 4 */}
+            <ResumeTechnologyContainer
+              icon={<IoLogoFirebase />}
+              technology="Firebase"
+            />
+            <ResumeTechnologyContainer
+              icon={<FaDatabase />}
+              technology="SQL"
+            />
+            <ResumeTechnologyContainer
+              icon={<FaGitAlt />}
+              technology="Git"
+            />
+          </div>
+        </div>
+
         <h2 className="text-center font-light text-gray-600 dark:text-gray-300">
           and many more!
         </h2>

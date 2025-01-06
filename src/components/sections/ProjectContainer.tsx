@@ -59,7 +59,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
       <div className="flex flex-col">
 
         {/* Title and Collaborators */}
-        <div className="flex flex-row text-md md:text-xl justify-between font-bold">
+        <div className="flex flex-row text-md justify-between font-bold">
           <h1>
             {title}
           </h1>
@@ -76,7 +76,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
         </div>
 
         {/* Project Type and Date */}
-        <div className="flex text-sm md:text-lg flex-row justify-between font-bold">
+        <div className="flex text-sm flex-row justify-between font-bold">
           <h1 className="text-gray-600 dark:text-gray-300">
             {type}
           </h1>
@@ -87,7 +87,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
 
         {/* Link (if any) */}
         {link && (
-          <div className="flex flex-row space-x-1 md:space-x-2 font-light text-sm md:text-lg tracking-tight">
+          <div className="flex flex-row space-x-1 font-light text-sm md:text-lg tracking-tight">
             <h1 className="text-gray-600 dark:text-gray-300">
               Available at:
             </h1>
