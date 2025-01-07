@@ -12,17 +12,17 @@ export default function About() {
             About Me
           </h1>
         </div>
-        <h2 className="md:text-xl text-gray-600 dark:text-gray-300">
+        <h2 className="text-gray-600 dark:text-gray-300">
           Software Engineer from 🇸🇬 Singapore. Computer Science undergraduate at the National University of Singapore (NUS).
         </h2>
-        <div className="flex flex-row space-x-8 md:space-x-16">
-          <h3 className="md:text-lg font-bold">
+        <div className="flex flex-row space-x-8">
+          <h3 className="font-bold">
             Name:<br />
             Country:<br />
             Contact:<br />
             Email:
           </h3>
-          <h3 className="md:text-lg text-gray-600 dark:text-gray-300">
+          <h3 className="text-gray-600 dark:text-gray-300">
             Han Yu<br />
             Singapore<br />
             <a href="tel:+6587164969" className="hover:underline hover:text-gray-700 hover:dark:text-gray-400">
