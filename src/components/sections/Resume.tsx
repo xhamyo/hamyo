@@ -114,7 +114,7 @@ export default function Resume() {
           icon={<BookOutlined />}
           date="2024"
           title="NUS Orbital 2024, Apollo 11 (Advanced)"
-          entity="National Unviersity of Singapore (NUS)"
+          entity="National University of Singapore (NUS)"
           content="This course empowers students to engage in self-learning to develop practical applications using current technology, with a strong emphasis on adhering to software engineering principles."
         />
         <ResumeContainer
