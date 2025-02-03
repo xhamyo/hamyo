@@ -25,6 +25,10 @@ export default function Home() {
             <Contact />
           </section>
           <div className="h-[1.5rem]"></div>
+          <div className="h-36 md:h-6"></div>
+          <div className="h-36 md:h-6"></div>
+          <div className="h-36 md:h-6"></div>
+          <div className="h-36 md:h-6"></div>
         </div>
       </div>
     </main>
