@@ -20,28 +20,24 @@ const HamburgerMenu: React.FC = () => {
           <div className="flex flex-col px-3 py-3 space-y-3 text-xl font-semibold">
             <a
               href="#about"
-              className="hover:text-2xl transition-all duration-200 ease-in-out"
               onClick={() => setIsOpen(false)}
             >
               About
             </a>
             <a
               href="#resume"
-              className="hover:text-2xl transition-all duration-200 ease-in-out"
               onClick={() => setIsOpen(false)}
             >
               Resume
             </a>
             <a
               href="#projects"
-              className="hover:text-2xl transition-all duration-200 ease-in-out"
               onClick={() => setIsOpen(false)}
             >
               Projects
             </a>
             <a
               href="#contact"
-              className="hover:text-2xl transition-all duration-200 ease-in-out"
               onClick={() => setIsOpen(false)}
             >
               Contact
