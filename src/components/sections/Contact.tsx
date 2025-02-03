@@ -51,6 +51,10 @@ export default function Contact() {
             </div>
           </div>
           <div className="h-3 md:h-6"></div>
+          <div className="h-36 md:h-6"></div>
+          <div className="h-36 md:h-6"></div>
+          <div className="h-36 md:h-6"></div>
+          <div className="h-36 md:h-6"></div>
         </div>
       </div>
     </div>
