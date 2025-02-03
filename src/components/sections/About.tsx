@@ -42,7 +42,7 @@ export default function About() {
           <a href="https://www.instagram.com/hanyu_____" target="_blank" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 items-center">
             <InstagramOutlined />
           </a>
-          <a href="https://www.linkedin.com/in/han-yu-5aa302248" target="_blank" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 items-center">
+          <a href="https://www.linkedin.com/in/hanyuuuuu" target="_blank" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 items-center">
             <LinkedinFilled />
           </a>
           <a href="https://github.com/xhamyo" target="_blank" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 items-center">

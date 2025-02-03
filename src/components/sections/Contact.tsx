@@ -37,7 +37,7 @@ export default function Contact() {
                   <a href="mailto:e1115696@u.nus.edu" className="hover:underline hover:text-gray-700 hover:dark:text-gray-400">
                     e1115696@u.nus.edu
                   </a>
-                  <a href="https://www.linkedin.com/in/han-yu-5aa302248" target="_blank" className="hover:underline hover:text-gray-700 hover:dark:text-gray-400">
+                  <a href="https://www.linkedin.com/in/hanyuuuuu" target="_blank" className="hover:underline hover:text-gray-700 hover:dark:text-gray-400">
                     @han-yu-5aa302248
                   </a>
                   <a href="https://www.instagram.com/hanyu_____" target="_blank" className="hover:underline hover:text-gray-700 hover:dark:text-gray-400">

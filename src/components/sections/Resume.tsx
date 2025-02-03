@@ -33,7 +33,7 @@ export default function Resume() {
                 <span className="font-bold text-blue-500">GPA:</span> 4.34 / 5.00
               </p>
               <p className="mt-2">
-                <span className="font-bold text-blue-500">Relevant Coursework:</span> Software Engineering, Computer Networks, Programming Methodology I and II, Data Structures and Algorithms, and Computer Organisation
+                <span className="font-bold text-blue-500">Relevant Coursework:</span> Software Engineering, Artificial Intelligence and Machine Learning, Computer Networks, Programming Methodology, Data Structures and Algorithms, Operating Systems, and Computer Organisation
               </p>
               <p className="mt-2">
                 <span className="font-bold text-blue-500">Notable Commitments:</span> Computing Rag & Flag 2023 (Silver), NUS Climbing Club Member 2024, OGL for Computing Freshman Social Camp 2024 and Psychology Camp 2024
