@@ -2,14 +2,14 @@
 import ResumeContainer from "./ResumeContainer";
 import ResumeTechnologyContainer from "./ResumeTechnologyContainer";
 import { BookOutlined, BankFilled, CodeOutlined, DownloadOutlined, FileTextOutlined} from "@ant-design/icons";
-import { FaCss3Alt, FaDatabase, FaGitAlt, FaHtml5, FaJava, FaPython, FaReact } from "react-icons/fa6";
+import { FaCss3Alt, FaDatabase, FaGitAlt, FaHtml5, FaJava, FaPython, FaReact, FaAws, FaDocker } from "react-icons/fa6";
 import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
-import { SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiTypescript, SiJupyter } from "react-icons/si";
 
 export default function Resume() {
   
   return (
-    <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:min-w-[48rem] md:w-[50vw] font-semibold tracking-light shadow-lg dark:shadow-gray-800">
+    <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:min-w-[48rem] md:w-[50vw] font-semibold tracking-light shadow-lg">
       <div className="p-4 md:p-8 flex flex-col justify-center space-y-3 md:space-y-6">
         <div className="flex flex-row space-x-2">
           <FileTextOutlined className="text-3xl"/>
@@ -88,9 +88,21 @@ export default function Resume() {
         <ResumeContainer
           icon={<CodeOutlined />}
           date="Jan' 2025 - Present"
-          title="Data Analyst (Generative AI) Intern"
+          title="MLOps Intern"
           entity="Infocomm Media Development Authority (IMDA)"
-          content="To be updated :D"
+          content={
+            <>
+              <p className="mt-2">
+                Collaborated with a team of 3, following the <span className="font-bold text-blue-500">SCRUM framework</span> to iteratively design, develop and optimise <span className="font-bold text-blue-500">Generative AI applications</span> tailored for internal use, ensuring continuous improvement and alignment with user needs.
+              </p>
+              <p className="mt-2">
+                Utilised Amazon SageMaker to <span className="font-bold text-blue-500">train, fine-tune and deploy scalable Large Language Models</span>, while conducting <span className="font-bold text-blue-500">comparative analysis across 31 model providers</span> such as Meta, DeepSeek, HuggingFace, and others to identify the most effective solution for optimal performance.
+              </p>
+              <p className="mt-2">
+                <span className="font-bold text-blue-500">Collected, cleaned, preprocessed and validated large-scale datasets</span> with over 1000 data points to ensure high-quality data pipelines for enhanced model training, leading to <span className="font-bold text-blue-500">improved output relevance and accuracy</span>.
+              </p>
+            </>
+          }
         />
 
         {/* Certification */}
@@ -171,6 +183,20 @@ export default function Resume() {
             />
 
             {/* Row 4 */}
+            <ResumeTechnologyContainer
+              icon={<FaAws />}
+              technology="SageMaker AI"
+            />
+            <ResumeTechnologyContainer
+              icon={<SiJupyter />}
+              technology="Jupyter"
+            />
+            <ResumeTechnologyContainer
+              icon={<FaDocker />}
+              technology="Docker"
+            />
+
+            {/* Row 5 */}
             <ResumeTechnologyContainer
               icon={<IoLogoFirebase />}
               technology="Firebase"

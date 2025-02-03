@@ -7,41 +7,41 @@ const HamburgerMenu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed top-4 right-20 z-20 bg-gray-100 dark:bg-gray-900 z-30">
+    <div className="fixed top-4 right-20 z-20 z-30">
       <button
-        className="md:hidden w-[3rem] h-[3rem] hover:scale-[1.15] rounded-md flex items-center justify-center transition-all duration-200 ease-in-out bg-gray-200 dark:bg-gray-800"
+        className="md:hidden w-[3rem] h-[3rem] hover:scale-[1.15] flex items-center justify-center transition-all duration-200 ease-in-out"
         onClick={() => setIsOpen(!isOpen)}
       >
         <IoMenuSharp className="text-2xl"/>
       </button>
 
       {isOpen && (
-        <div className="md:hidden absolute top-12 right-0 rounded-md bg-gray-300 dark:bg-gray-900 shadow-lg">
+        <div className="md:hidden absolute top-12 right-0 rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-lg">
           <div className="flex flex-col px-3 py-3 space-y-3 text-xl font-semibold">
             <a
               href="#about"
-              className="hover:text-gray-700 hover:dark:text-gray-300 hover:text-2xl transition-all duration-200 ease-in-out"
+              className="hover:text-2xl transition-all duration-200 ease-in-out"
               onClick={() => setIsOpen(false)}
             >
               About
             </a>
             <a
               href="#resume"
-              className="hover:text-gray-700 hover:dark:text-gray-300 hover:text-2xl transition-all duration-200 ease-in-out"
+              className="hover:text-2xl transition-all duration-200 ease-in-out"
               onClick={() => setIsOpen(false)}
             >
               Resume
             </a>
             <a
               href="#projects"
-              className="hover:text-gray-700 hover:dark:text-gray-300 hover:text-2xl transition-all duration-200 ease-in-out"
+              className="hover:text-2xl transition-all duration-200 ease-in-out"
               onClick={() => setIsOpen(false)}
             >
               Projects
             </a>
             <a
               href="#contact"
-              className="hover:text-gray-700 hover:dark:text-gray-300 hover:text-2xl transition-all duration-200 ease-in-out"
+              className="hover:text-2xl transition-all duration-200 ease-in-out"
               onClick={() => setIsOpen(false)}
             >
               Contact

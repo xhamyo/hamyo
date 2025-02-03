@@ -28,7 +28,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
   return (
     <div>
       <a href={link} target="_blank">
-        <div className="flex flex-col p-3 space-y-2 rounded-lg hover:scale-[1.01] shadow-lg dark:shadow-gray-500 dark:shadow-md transition-all duration-200 ease-in-out dark:bg-gradient-to-r dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
+        <div className="flex flex-col p-3 space-y-2 rounded-lg hover:scale-[1.01] shadow-lg transition-all duration-200 ease-in-out dark:bg-gradient-to-r dark:bg-[#151515]">
           
           {/* Image and Description */}
           <div className="flex flex-col relative overflow-hidden hover:scale-[1.01] transition-all duration-200 ease-in-out">
