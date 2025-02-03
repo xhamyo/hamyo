@@ -36,7 +36,7 @@ export default function About() {
         </div>
         <div className="py-1"></div>
         <div className="flex flex-row space-x-2 md:space-x-4">
-          <a href="https://drive.google.com/uc?export=download&id=1nWrPr083vMk0N0q0wgn8YYsfy4eSttLT" download="HANYU_RESUME.pdf" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 items-center">
+          <a href="https://drive.google.com/uc?export=download&id=1Qs86d9G-WnSs7kU7NAxnhVomj0ADrHJW" download="HANYU_RESUME.pdf" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 items-center">
             <DownloadOutlined /> Resume
           </a>
           <a href="https://www.instagram.com/hanyu_____" target="_blank" className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold tracking-tight bg-indigo-600 hover:bg-indigo-700 items-center">
