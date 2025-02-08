@@ -56,7 +56,7 @@ export default function home() {
               </h1>
             </div>
           ):(
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col h-full items-center justify-center">
               <Image alt="valentinesYes" src="/images/valentines/valentines8.jpg" width={150} height={150}/>
               <h1 className="text-xl font-bold tracking-tight">
                 *wink*
