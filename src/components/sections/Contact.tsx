@@ -18,7 +18,7 @@ export default function Contact() {
               Please contact me for any enquiries!
           </h1>
           <div className="flex flex-row justify-center items-center px-3 py-3 md:px-4 md:py-4 space-x-2 rounded-xl shadow-xl w-[85vw] h-[48.6vw] md:w-[30rem] md:h-[17rem] hover:scale-[1.01] shadow-xl transition-all duration-200 ease-in-out dark:bg-[#151515]">
-            <Image alt="logo" src="/images/hanyu.png" width={90} height={90} className="w-1/3 border-8 border-zinc-900 rounded-full shadow-2xl hover:scale-[1.05] transition-all duration-200 ease-in-out"/>
+            <Image alt="contactPicture" src="/images/hanyu.png" width={90} height={90} className="w-1/3 border-8 border-zinc-900 rounded-full shadow-2xl hover:scale-[1.05] transition-all duration-200 ease-in-out"/>
             <div className="flex flex-col">
               <h1 className="text-indigo-600 dark:text-indigo-500 font-bold text-2xl">Han Yu</h1>
               <h2 className="font-bold text-md md:text-xl">Software Engineer</h2>
