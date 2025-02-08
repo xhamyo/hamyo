@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className="w-full h-[200vh] flex flex-col items-center">
+      <div className="w-full h-full flex flex-col items-center">
         <div className="flex flex-col space-y-4">
           <section id="about" className="space-y-4 scroll-mt-[6.5em]">
             <Introduction />
