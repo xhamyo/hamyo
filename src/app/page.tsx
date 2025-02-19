@@ -14,7 +14,6 @@ export default function Home() {
         <div className="flex flex-col space-y-4">
           <section id="about" className="space-y-4 scroll-mt-[6.5em]">
             <Introduction />
-            <Valentines />
             <About />
           </section>
           <section id="resume" className="scroll-mt-[6.5em]">
