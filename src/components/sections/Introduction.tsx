@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const words = ["student at NUS.", "software engineer.", "full-stack developer.", "game developer.", "developer at IMDA."];
+const words = ["student at NUS.", "software engineer.", "full-stack developer.", "game developer.", "developer at IMDA.", "iOS developer."];
 
 export default function Introduction() {
   const [index, setIndex] = useState(0);

@@ -30,10 +30,10 @@ export default function Resume() {
           content={
             <>
               <p className="mt-2">
-                <span className="font-bold text-blue-500">GPA:</span> 4.34 / 5.00
+                <span className="font-bold text-blue-500">GPA:</span> 4.36 / 5.00
               </p>
               <p className="mt-2">
-                <span className="font-bold text-blue-500">Relevant Coursework:</span> Software Engineering, Artificial Intelligence and Machine Learning, Computer Networks, Programming Methodology, Data Structures and Algorithms, Operating Systems, and Computer Organisation
+                <span className="font-bold text-blue-500">Relevant Coursework:</span> Software Engineering, Artificial Intelligence and Machine Learning, Computer Networks, Parallel Computing, Operating Systems, Computer Organisation, Design & Analysis of Algorithms, Programming Methodology, and Data Structures & Algorithms
               </p>
               <p className="mt-2">
                 <span className="font-bold text-blue-500">Notable Commitments:</span> Computing Rag & Flag 2023 (Silver), NUS Climbing Club Member 2024, OGL for Computing Freshman Social Camp 2024 and Psychology Camp 2024
@@ -88,19 +88,17 @@ export default function Resume() {
         <ResumeContainer
           icon={<CodeOutlined />}
           date="Jan' 2025 - Present"
-          title="MLOps Intern"
+          title="Intern, Digital Transformation Office"
           entity="Infocomm Media Development Authority (IMDA)"
           content={
             <>
               <p className="mt-2">
-                Collaborated with a team of 3, following the <span className="font-bold text-blue-500">SCRUM framework</span> to iteratively design, develop and optimise <span className="font-bold text-blue-500">Generative AI applications</span> tailored for internal use, ensuring continuous improvement and alignment with user needs.
+                Collaborated with a team of 3 and external partners (AWS, Cognizant) using the <span className="font-bold text-blue-500">SCRUM framework</span> to iteratively design and develop customisable and specialised <span className="font-bold text-blue-500">Retrieval-Augmented Generation (RAG) chatbots</span> with domain-specific knowledge tailored for internal use.
               </p>
               <p className="mt-2">
-                Utilised Amazon SageMaker to <span className="font-bold text-blue-500">train, fine-tune and deploy scalable Large Language Models</span>, while conducting <span className="font-bold text-blue-500">comparative analysis across 31 model providers</span> such as Meta, DeepSeek, HuggingFace, and others to identify the most effective solution for optimal performance.
-              </p>
+                Developed a <span className="font-bold text-blue-500">film classification tool</span> with external partners (Google Cloud Platform) for the Content Standards & Classifications team. Implemented film chunking and deployed eight <span className="font-bold text-blue-500">parallel and specialised agents</span> to generate structured synopses and produce compliance reports for regulatory review.              </p>
               <p className="mt-2">
-                <span className="font-bold text-blue-500">Collected, cleaned, preprocessed and validated large-scale datasets</span> with over 1000 data points to ensure high-quality data pipelines for enhanced model training, leading to <span className="font-bold text-blue-500">improved output relevance and accuracy</span>.
-              </p>
+                Conducted <span className="font-bold text-blue-500">comprehensive evaluation</span> of Generative AI applications, focusing on <span className="font-bold text-blue-500">universal risks</span> including bias, toxicity, hallucinations, and data disclosures for responsible deployment.              </p>
             </>
           }
         />
@@ -219,7 +217,7 @@ export default function Resume() {
         {/* Resume Download Link */}
         <div className="py-1"></div>
         <div className="flex flex-row items-center justify-center">
-          <a href="https://drive.google.com/uc?export=download&id=1Qs86d9G-WnSs7kU7NAxnhVomj0ADrHJW"
+          <a href="https://drive.google.com/uc?export=download&id=1Bl-qKIOIklu_4vDPOfHfUBVKJA1vkK7u"
             download="HANYU_RESUME.pdf"
             className="px-2 py-1 md:px-3 md:py-2 rounded-lg text-white font-semibold text-2xl tracking-wide bg-indigo-600 hover:bg-indigo-700 text-center"
           >

@@ -17,6 +17,24 @@ export default function Projects() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <ProjectContainer
+            title="Juicebox Finance (In Development 🔨)"
+            date="2025"
+            type="iOS Application Development"
+            images={[
+              <Image alt="juiceboxFinancePage1" src="/images/projects/juiceboxFinance/juiceboxFinancePage1.png" width={1920} height={1080} className="w-full"/>,
+              <Image alt="juiceboxFinancePage2" src="/images/projects/juiceboxFinance/juiceboxFinancePage2.png" width={1920} height={1080} className="w-full"/>,
+              <Image alt="juiceboxFinancePage3" src="/images/projects/juiceboxFinance/juiceboxFinancePage3.png" width={1920} height={1080} className="w-full"/>,
+              <Image alt="juiceboxFinancePage4" src="/images/projects/juiceboxFinance/juiceboxFinancePage4.png" width={1920} height={1080} className="w-full"/>
+            ]}
+            imageDescriptions={[
+              "User Authentication",
+              "Cash Accounts / Tools / Settings",
+              "Manage Budgets",
+              "Manage Transactions"
+            ]}
+            link="/juiceboxFinance"
+          />
+          <ProjectContainer
             title="Portfolio Page"
             date="2024"
             type="Static Front-End Web Development"
