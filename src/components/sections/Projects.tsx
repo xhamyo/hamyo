@@ -7,7 +7,7 @@ import { FaHammer } from "react-icons/fa6";
 export default function Projects() {
   
   return (
-    <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:min-w-[48rem] md:w-[50vw] shadow-lg">
+    <div className="rounded-lg bg-zinc-950 w-[90vw] md:min-w-[48rem] md:w-[50vw] shadow-lg">
       <div className="p-4 md:p-8 flex flex-col justify-center space-y-5">
         <div className="flex flex-row space-x-2 font-semibold tracking-light">
           <FaHammer className="text-3xl"/>

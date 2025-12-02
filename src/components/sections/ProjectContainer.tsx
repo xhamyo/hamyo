@@ -28,7 +28,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
   return (
     <div>
       <a href={link} target="_blank">
-        <div className="flex flex-col p-3 space-y-2 rounded-lg hover:scale-[1.01] shadow-lg transition-all duration-200 ease-in-out dark:bg-gradient-to-r dark:bg-[#151515]">
+        <div className="flex flex-col p-3 space-y-2 rounded-lg hover:scale-[1.01] shadow-lg transition-all duration-200 ease-in-out bg-gradient-to-r bg-[#151515]">
           
           {/* Image and Description */}
           <div className="flex flex-col relative overflow-hidden hover:scale-[1.01] transition-all duration-200 ease-in-out">
@@ -71,7 +71,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
               >
                 <div className="flex flex-row items-center">
                   {Array.from({ length: nCollaborators }).map((_, index) => (
-                    <BsPersonFill key={index} className="text-blue-600 dark:text-blue-500 -ml-2" />
+                    <BsPersonFill key={index} className="text-blue-500 -ml-2" />
                   ))}
                 </div>
               </Tooltip>
@@ -79,7 +79,7 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
 
             {/* Project Type and Date */}
             <div className="flex text-sm flex-row justify-between font-bold">
-              <h1 className="text-gray-600 dark:text-gray-300">
+              <h1 className="text-gray-300">
                 {type}
               </h1>
               <h1 className="text-indigo-500">

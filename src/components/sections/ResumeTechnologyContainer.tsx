@@ -7,7 +7,7 @@ interface ResumeTechnologyContainerProps {
 }
 const ResumeTechnologyContainer: React.FC<ResumeTechnologyContainerProps> = ({ icon, technology }) => {
   return (
-    <div className="flex flex-col items-center justify-center rounded-lg font-bold text-sm md:text-xl w-[25vw] h-[20vw] md:w-[10rem] md:h-[7rem] hover:scale-[1.05] shadow-lg transition-all duration-200 ease-in-out dark:bg-gradient-to-r dark:from-[#101010] dark:via-[#1B1B1B] dark:to-[#202020]">
+    <div className="flex flex-col items-center justify-center rounded-lg font-bold text-sm md:text-xl w-[25vw] h-[20vw] md:w-[10rem] md:h-[7rem] hover:scale-[1.05] shadow-lg transition-all duration-200 ease-in-out bg-gradient-to-r from-[#101010] via-[#1B1B1B] to-[#202020]">
       <div className="text-3xl md:text-5xl">
         {icon}
       </div>

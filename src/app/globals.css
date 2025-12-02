@@ -3,14 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Light mode styles */
 body {
-  background-color: #FFFFFA;
-  color: #001122;
-}
-
-/* Dark mode styles */
-.dark body {
   background-color: #101010;
   color: #FFFFFA;
 }

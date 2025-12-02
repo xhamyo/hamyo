@@ -4,41 +4,41 @@
 import React, { useState } from "react";
 import { IoMenuSharp } from "react-icons/io5";
 
-export default function HamburgerMenu() {
+const HamburgerMenu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed top-4 right-20 z-20 z-30">
+    <div className="fixed top-[1rem] right-[1rem] z-20">
       <button
-        className="md:hidden w-[3rem] h-[3rem] hover:scale-[1.15] flex items-center justify-center transition-all duration-200 ease-in-out"
+        className="md:hidden hover:scale-[1.15] flex items-center justify-center transition-all duration-200 ease-in-out"
         onClick={() => setIsOpen(!isOpen)}
       >
         <IoMenuSharp className="text-2xl"/>
       </button>
 
       {isOpen && (
-        <div className="md:hidden absolute top-12 right-0 rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-lg">
+        <div className="md:hidden absolute top-12 right-0 rounded-md bg-zinc-950 shadow-lg">
           <div className="flex flex-col px-3 py-3 space-y-3 text-xl font-semibold">
             <a
-              href="#about"
+              href="#home"
               onClick={() => setIsOpen(false)}
             >
               About
             </a>
             <a
-              href="#resume"
+              href="#home"
               onClick={() => setIsOpen(false)}
             >
               Resume
             </a>
             <a
-              href="#projects"
+              href="#home"
               onClick={() => setIsOpen(false)}
             >
               Projects
             </a>
             <a
-              href="#contact"
+              href="#home"
               onClick={() => setIsOpen(false)}
             >
               Contact
@@ -49,3 +49,5 @@ export default function HamburgerMenu() {
     </div>
   );
 };
+
+export default HamburgerMenu;

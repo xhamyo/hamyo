@@ -4,10 +4,9 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { DownloadOutlined } from "@ant-design/icons";
 import { SiLeetcode } from "react-icons/si";
 import { IoIosMail } from "react-icons/io";
-import { FaDownload, FaGithub, FaGraduationCap, FaLinkedin, FaLocationDot, FaSquareInstagram, FaSuitcase, FaTelegram } from "react-icons/fa6";
+import { FaGithub, FaGraduationCap, FaLinkedin, FaLocationDot, FaSquareInstagram, FaSuitcase, FaTelegram } from "react-icons/fa6";
 
 const titles = [
   "student at NUS.",
@@ -104,7 +103,7 @@ export default function About() {
   }, []);
 
   return (
-    <div className="p-3 rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:min-w-[22rem] md:w-[22rem] shadow-lg outline outline-2 outline-red-500">
+    <div className="md:fixed md:top-[5rem] md:left-[1rem] p-3 rounded-lg bg-zinc-950 w-[90vw] md:w-[22rem] shadow-lg outline outline-2 outline-red-500">
       <div className="flex flex-row items-center space-x-2 md:space-x-4">
         <Image alt="introductionPicture" src="/images/hanyu.png" width={90} height={90} className="rounded-md w-[4rem]"/>
         <div className="text-2xl tracking-tight">
@@ -128,7 +127,7 @@ export default function About() {
       <div className="h-2"></div>
 
     
-      <div className="flex flex-col justify-center space-y-1 text-sm text-gray-600 dark:text-gray-300">
+      <div className="flex flex-col justify-center space-y-1 text-sm text-gray-300">
         {info.map((item, id) =>
           <div key={id} className="relative flex flex-row space-x-2">
             <h1 className="my-1 peer">
@@ -152,21 +151,6 @@ export default function About() {
             )}
           </div>
         )}
-        
-        <a href="https://drive.google.com/uc?export=download&id=1Bl-qKIOIklu_4vDPOfHfUBVKJA1vkK7u" download="HANYU_RESUME.pdf" className="py-1 rounded-lg bg-indigo-200 dark:bg-indigo-300 hover:bg-indigo-300 dark:hover:bg-indigo-400">
-          <div className="flex flex-row space-x-2 justify-center text-indigo-700 dark:text-indigo-800 font-semibold tracking-tight">
-            <FaDownload className="my-1 text-3xl"/>
-            <div className="flex-col">
-              <h1>
-                Resume
-              </h1>
-              <h1 className="text-xs font-light">
-                Last Updated Aug 2025
-              </h1>
-            </div>
-          </div>
-        </a>
-
       </div>
     </div>
   );

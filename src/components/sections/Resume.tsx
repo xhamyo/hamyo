@@ -7,9 +7,8 @@ import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
 import { SiNextdotjs, SiTailwindcss, SiTypescript, SiJupyter } from "react-icons/si";
 
 export default function Resume() {
-  
   return (
-    <div className="rounded-lg bg-zinc-100 dark:bg-zinc-950 w-[90vw] md:min-w-[48rem] md:w-[50vw] font-semibold tracking-light shadow-lg">
+    <div className="rounded-lg bg-zinc-950 w-[90vw] md:min-w-[48rem] md:w-[50vw] font-semibold tracking-light shadow-lg">
       <div className="p-4 md:p-8 flex flex-col justify-center space-y-3 md:space-y-6">
         <div className="flex flex-row space-x-2">
           <FileTextOutlined className="text-3xl"/>
@@ -210,7 +209,7 @@ export default function Resume() {
           </div>
         </div>
 
-        <h2 className="text-center font-light text-gray-600 dark:text-gray-300">
+        <h2 className="text-center font-light text-gray-300">
           and many more!
         </h2>
         

@@ -1,21 +1,22 @@
+
 "use client";
 
 import Link from "next/link"
 
 export default function HeaderBar () {
   return (
-    <div className="hidden md:flex fixed left-0 right-0 flex space-x-1 items-center justify-center min-h-[6rem] text-left text-2xl font-semibold z-10">
-      <Link href="./#about" className="p-1 hover:px-2 hover:text-3xl hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-lg transition-all duration-200 ease-in-out">
-        About
+    <div className="hidden md:flex fixed top-6 left-0 right-0 flex space-x-5 h-5 items-center justify-center text-left text-sm font-semibold z-20 text-gray-300">
+      <Link href="./#home" className="hover:pb-1 hover:text-white">
+        Home
       </Link>
-      <Link href="./#resume" className="p-1 hover:px-2 hover:text-3xl hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-lg transition-all duration-200 ease-in-out">
-        Resume
+      <Link href="./#home" className="hover:pb-1 hover:text-white">
+        Experience
       </Link>
-      <Link href="./#projects" className="p-1 hover:px-2 hover:text-3xl hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-lg transition-all duration-200 ease-in-out">
+      <Link href="./#home" className="hover:pb-1 hover:text-white">
+        Education
+      </Link>
+      <Link href="./#home" className="hover:pb-1 hover:text-white">
         Projects
-      </Link>
-      <Link href="./#contact" className="p-1 hover:px-2 hover:text-3xl hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-lg transition-all duration-200 ease-in-out">
-        Contact
       </Link>
     </div>
   );
