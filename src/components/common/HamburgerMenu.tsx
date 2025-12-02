@@ -29,7 +29,7 @@ const HamburgerMenu: React.FC = () => {
               href="#home"
               onClick={() => setIsOpen(false)}
             >
-              Resume
+              Experiences
             </a>
             <a
               href="#home"

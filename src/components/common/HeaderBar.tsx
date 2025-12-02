@@ -9,14 +9,17 @@ export default function HeaderBar () {
       <Link href="./#home" className="hover:pb-1 hover:text-white">
         Home
       </Link>
-      <Link href="./#home" className="hover:pb-1 hover:text-white">
+      <Link href="./#experience" className="hover:pb-1 hover:text-white">
         Experience
       </Link>
-      <Link href="./#home" className="hover:pb-1 hover:text-white">
+      <Link href="./#education" className="hover:pb-1 hover:text-white">
         Education
       </Link>
-      <Link href="./#home" className="hover:pb-1 hover:text-white">
+      <Link href="./#projects" className="hover:pb-1 hover:text-white">
         Projects
+      </Link>
+      <Link href="./#certifications" className="hover:pb-1 hover:text-white">
+        Certification
       </Link>
     </div>
   );

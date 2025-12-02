@@ -3,7 +3,6 @@
 import { ReactNode, useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { BsPersonFill } from "react-icons/bs";
-import { Tooltip } from "antd";
 
 interface ProjectContainerProps {
   title: string;
@@ -65,16 +64,16 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ title, date, type, 
               <h1>
                 {title}
               </h1>
-              <Tooltip
+              {/* <Tooltip
                 placement="left"
                 title={nCollaborators == 1 ? "Independent project" : `Team size: ${nCollaborators}`}
-              >
+              > */}
                 <div className="flex flex-row items-center">
                   {Array.from({ length: nCollaborators }).map((_, index) => (
                     <BsPersonFill key={index} className="text-blue-500 -ml-2" />
                   ))}
                 </div>
-              </Tooltip>
+              {/* </Tooltip> */}
             </div>
 
             {/* Project Type and Date */}

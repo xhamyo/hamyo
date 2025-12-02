@@ -11,11 +11,11 @@ interface ResumeContainerProps {
 }
 const ResumeContainer: React.FC<ResumeContainerProps> = ({ icon, date, title, entity, content }) => {
   return (
-    <div className="flex flex-row space-x-3 md:space-x-4 font-medium">
+    <div className="flex flex-row space-x-3 font-medium text-base">
       <div className="text-indigo-500 text-3xl">
         {icon}
       </div>
-      <div className="flex-col">
+      <div className="flex-col text-left">
         <h1 className="font-bold text-sm text-indigo-500">{date}</h1>
         <h2 className="font-bold">{title}</h2>
         <h3 className="font-bold text-sm italic">{entity}</h3>

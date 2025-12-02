@@ -1,20 +1,22 @@
 
 import ProjectContainer from "./ProjectContainer";
-
 import Image from "next/image";
-import { FaHammer } from "react-icons/fa6";
 
 export default function Projects() {
-  
   return (
-    <div className="rounded-lg bg-zinc-950 w-[90vw] md:min-w-[48rem] md:w-[50vw] shadow-lg">
+    <>
+    <div className="flex flex-col w-full outline outline-red-500">
+      <div className="flex flex-row space-x-1 md:space-x-2 lg:space-x-3 text-2xl md:text-4xl font-bold">
+        <h1>
+          Featured
+        </h1>
+        <h1 className="bg-gradient-to-r from-[#d4a537] via-[#ffecb3] via-[#f0c24a] via-[#f5d670] to-[#fff7c6] text-transparent bg-clip-text">
+          Projects
+         </h1>
+      </div>
+    </div>
+    <div className="rounded-lg bg-zinc-950 w-full shadow-lg">
       <div className="p-4 md:p-8 flex flex-col justify-center space-y-5">
-        <div className="flex flex-row space-x-2 font-semibold tracking-light">
-          <FaHammer className="text-3xl"/>
-          <h1 className="text-2xl">
-            My Projects
-          </h1>
-        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <ProjectContainer
             title="Juicebox Finance (In Development 🔨)"
@@ -127,5 +129,6 @@ export default function Projects() {
       </div>
       <div className="h-2"></div>
     </div>
+    </>
   );
 }
