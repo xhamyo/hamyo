@@ -145,9 +145,9 @@ const techs = [
 
 export default function TechnologiesAndSkills() {
   return (
-    <div className="md:fixed md:w-[22rem] md:top-[26.75rem] md:left-[1rem] md:bottom-[1rem] overflow-y-scroll max-h-[40vh] md:max-h-[100vh] rounded-lg bg-zinc-950 shadow-lg outline outline-2 outline-red-500">
-      <h1 className="sticky top-0 px-3 pt-3 pb-1 bg-zinc-950 shadow-lg font-semibold z-10 text-2xl">
-        <span className="bg-gradient-to-r from-[#d4a537] via-[#ffecb3] via-[#f0c24a] via-[#f5d670] to-[#fff7c6] text-transparent bg-clip-text">Technologies</span> and <span className="bg-gradient-to-r from-[#d4a537] via-[#ffecb3] via-[#f0c24a] via-[#f5d670] to-[#fff7c6] text-transparent bg-clip-text">Skills</span>
+    <div className="md:fixed md:w-[22rem] md:top-[26.75rem] md:left-[1rem] md:bottom-[1rem] overflow-y-scroll max-h-[40vh] md:max-h-[100vh] rounded-lg bg-zinc-900 shadow-lg">
+      <h1 className="sticky top-0 px-3 pt-3 pb-1 bg-zinc-900 shadow-lg font-semibold z-10 text-2xl">
+        <span className="text-gold-l">Technologies</span> and <span className="text-gold-l">Skills</span>
       </h1>
       <div className="px-2">
         {techs.map((tech, id) => 
@@ -156,10 +156,10 @@ export default function TechnologiesAndSkills() {
               {tech.icon}
             </h1>
             <div className="flex flex-col">
-              <h1 className="text-sm font-bold text-gray-100 group-hover:bg-gradient-to-r from-[#fff7c6] via-[#f5d670] via-[#f0c24a] via-[#ffecb3] to-[#d4a537] group-hover:text-transparent group-hover:bg-clip-text">
+              <h1 className="text-sm font-bold text-gray-100 group-hover:text-gold-r">
                 {tech.title}
               </h1>
-              <h1 className="text-xs text-gray-300 group-hover:bg-gradient-to-r from-[#fff7c6] via-[#f5d670] via-[#f0c24a] via-[#ffecb3] to-[#d4a537] group-hover:text-transparent group-hover:bg-clip-text">
+              <h1 className="text-xs text-gray-300 group-hover:text-gold-r">
                 {tech.text}
               </h1>
             </div>

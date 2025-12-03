@@ -8,3 +8,112 @@ body {
   background-color: #090010;
   color: #FFFFFA;
 }
+
+@layer utilities {
+  .text-gold-l {
+    @apply bg-gradient-to-l
+           from-[#fff7c6]
+           via-[#f5d670]
+           via-[#f0c24a]
+           via-[#ffecb3]
+           to-[#d4a537]
+           text-transparent
+           bg-clip-text;
+  }
+  .text-gold-r {
+    @apply bg-gradient-to-r 
+           from-[#fff7c6]
+           via-[#f5d670]
+           via-[#f0c24a]
+           via-[#ffecb3]
+           to-[#d4a537]
+           text-transparent
+           bg-clip-text;
+  }
+  .text-blue-l {
+    @apply bg-gradient-to-l
+          from-[#93c5fd]
+          via-[#60a5fa]
+          to-[#3b82f6]
+          text-transparent bg-clip-text;
+  }
+  .text-blue-r {
+    @apply bg-gradient-to-r
+          from-[#93c5fd]
+          via-[#60a5fa]
+          to-[#3b82f6]
+          text-transparent bg-clip-text;
+  }
+  .text-purple-m {
+    @apply bg-gradient-to-r
+           from-[#b792ff]
+           via-[#9f5bff]
+           via-[#7d2fe3]
+           via-[#5c14b8]
+           to-[#d9c5ff]
+           text-transparent
+           bg-clip-text
+  }
+  .text-purple-l {
+    @apply bg-gradient-to-l
+           from-[#d9c5ff]
+           via-[#b792ff]
+           to-[#9f5bff]
+           text-transparent
+           bg-clip-text
+  }
+  .text-purple-r {
+    @apply bg-gradient-to-r
+           from-[#d9c5ff]
+           via-[#b792ff]
+           to-[#9f5bff]
+           text-transparent
+           bg-clip-text
+  }
+  .bg-gold-l {
+    @apply bg-gradient-to-l
+           from-[#fff7c6]
+           via-[#f5d670]
+           via-[#f0c24a]
+           via-[#ffecb3]
+           to-[#d4a537]
+  }
+  .bg-gold-r {
+    @apply bg-gradient-to-r
+           from-[#fff7c6]
+           via-[#f5d670]
+           via-[#f0c24a]
+           via-[#ffecb3]
+           to-[#d4a537]
+  }
+  .bg-blue-r {
+    @apply bg-gradient-to-r
+           from-[#93c5fd]
+           via-[#60a5fa]
+           to-[#3b82f6]
+  }
+  .bg-blue-b {
+    @apply bg-gradient-to-b
+           from-[#93c5fd]
+           via-[#60a5fa]
+           to-[#3b82f6]
+  }
+  .bg-purple-r {
+    @apply bg-gradient-to-r
+           from-[#d9c5ff]
+           via-[#b792ff]
+           to-[#9f5bff]
+  }
+  .bg-purple-b {
+    @apply bg-gradient-to-b
+           from-[#d9c5ff]
+           via-[#b792ff]
+           to-[#9f5bff]
+  }
+  .bg-gray-br {
+    @apply bg-gradient-to-br
+       from-[#292929]
+       via-[#1b1b1b]
+       to-[#0e0e0e];
+  }
+}

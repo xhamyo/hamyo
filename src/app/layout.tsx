@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="fixed left-0 right-0 w-[100vm] h-[4rem] bg-zinc-950 shadow-lg z-10"></div>
+        <div className="fixed left-0 right-0 w-[100vm] h-[4rem] bg-zinc-950 shadow-lg z-20"></div>
         <Logo />
         <HeaderBar />
         <HamburgerMenu />

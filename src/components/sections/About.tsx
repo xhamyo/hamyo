@@ -87,11 +87,11 @@ export default function About() {
   }, []);
 
   return (
-    <div className="md:fixed md:w-[22rem] md:top-[5rem] md:left-[1rem] p-3 rounded-lg bg-zinc-950 shadow-lg outline outline-2 outline-red-500">
+    <div className="md:fixed md:w-[22rem] md:top-[5rem] md:left-[1rem] p-3 rounded-lg bg-zinc-900 shadow-lg">
       <div className="flex flex-row items-center space-x-2 md:space-x-4">
         <Image alt="introductionPicture" src="/images/hanyu.png" width={500} height={500} className="rounded-md w-[4rem]"/>
         <div className="text-2xl tracking-tight">
-          <h1>hello! I am <span className="bg-gradient-to-r from-[#d4a537] via-[#ffecb3] via-[#f0c24a] via-[#f5d670] to-[#fff7c6] text-transparent bg-clip-text font-bold">HAN YU</span>,</h1>
+          <h1>hello! I am <span className="text-gold-l font-bold">HAN YU</span>,</h1>
           <div className="flex flex-row relative overflow-hidden">
             <AnimatePresence mode="popLayout">
               <motion.div
@@ -100,7 +100,7 @@ export default function About() {
                 animate={{ y: "0%", opacity: 1 }}
                 exit={{ y: "-100%", opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="bg-gradient-to-r from-[#b792ff] via-[#9f5bff] via-[#7d2fe3] via-[#5c14b8] to-[#d9c5ff] text-transparent bg-clip-text font-semibold w-[65vw] md:w-[38rem] md:h-[2rem]"
+                className="text-purple-m font-semibold w-[65vw] md:w-[38rem] md:h-[2rem]"
               >
                 {titles[index]}
               </motion.div>
@@ -117,15 +117,15 @@ export default function About() {
             <h1 className="my-1 peer group-hover:text-[#fff7c6]">
               {item.icon}
             </h1>
-            <h1 className="absolute z-0 left-3 top-0 rounded-lg opacity-0 peer-hover:opacity-100 group-hover:bg-gradient-to-r from-[#fff7c6] via-[#f5d670] via-[#f0c24a] via-[#ffecb3] to-[#d4a537] group-hover:text-transparent group-hover:bg-clip-text">
+            <h1 className="absolute z-0 left-3 top-0 rounded-lg opacity-0 peer-hover:opacity-100 group-hover:text-gold-r">
               {item.tooltip}
             </h1>
             {item.link ? (
-              <a href={item.link} target="_blank" className="z-10 hover:underline peer-hover:blur-lg group-hover:bg-gradient-to-r from-[#fff7c6] via-[#f5d670] via-[#f0c24a] via-[#ffecb3] to-[#d4a537] group-hover:text-transparent group-hover:bg-clip-text">
+              <a href={item.link} target="_blank" className="z-10 peer-hover:blur-lg group-hover:text-gold-r">
                 {item.text[0]}
               </a>
             ) : (
-              <div className="peer-hover:blur-lg group-hover:bg-gradient-to-r from-[#fff7c6] via-[#f5d670] via-[#f0c24a] via-[#ffecb3] to-[#d4a537] group-hover:text-transparent group-hover:bg-clip-text">
+              <div className="peer-hover:blur-lg group-hover:text-gold-r">
                 {item.text.map((line, lid) =>
                   <h1 key={lid}>
                     {line}

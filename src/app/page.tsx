@@ -10,7 +10,6 @@ import Valentines from "../components/sections/Valentines";
 export default function Home() {
   return (
     <main className="w-full h-full">
-      {/* Small Screens */}
         <div className="px-[1rem] md:fixed md:left-[23rem] md:overflow-y-scroll top-[4rem] bottom-[0rem] flex flex-col space-y-4">
           <section id="home" className="scroll-mt-[6.5em]">
             <About />

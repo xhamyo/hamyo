@@ -6,11 +6,11 @@ export default function Projects() {
   return (
     <>
     <div className="flex flex-col w-full outline outline-red-500">
-      <div className="flex flex-row space-x-1 md:space-x-2 lg:space-x-3 text-2xl md:text-4xl font-bold">
+      <div className="flex flex-row space-x-1 md:space-x-2 text-2xl md:text-4xl justify-center font-bold">
         <h1>
           Featured
         </h1>
-        <h1 className="bg-gradient-to-r from-[#d4a537] via-[#ffecb3] via-[#f0c24a] via-[#f5d670] to-[#fff7c6] text-transparent bg-clip-text">
+        <h1 className="text-gold-l">
           Projects
          </h1>
       </div>
