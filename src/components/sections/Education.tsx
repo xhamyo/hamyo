@@ -98,7 +98,7 @@ export default function Education() {
       </div>
 
       {/* Timeline. */}
-      <div className="hidden lg:block absolute top-[5%] left-1/2 -translate-x-1/2 w-[3px] h-[90%] bg-purple-b rounded-full" />
+      <div className="hidden lg:block absolute top-[5%] left-1/2 -translate-x-1/2 w-[3px] h-[90%] bg-purple-t rounded-full" />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12 justify-between auto-cols-min">
         {education.map((item, id) =>

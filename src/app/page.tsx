@@ -11,22 +11,24 @@ export default function Home() {
   return (
     <main className="w-full h-full">
         <div className="px-[1rem] md:fixed md:left-[23rem] md:overflow-y-scroll top-[4rem] bottom-[0rem] flex flex-col space-y-4">
-          <section id="home" className="scroll-mt-[6.5em]">
+          <section id="home" className="scroll-mt-[4em] md:scroll-mt-[0em]">
             <About />
           </section>
-          <section id="experience" className="scroll-mt-[6.5em]">
+          <div className="h-4 md:h-0"/>
+          <section id="experience" className="scroll-mt-[4em] md:scroll-mt-[0em]">
             <Experience />
           </section>
-          <section id="education" className="scroll-mt-[6.5em]">
+          <section id="education" className="scroll-mt-[4em] md:scroll-mt-[0em]">
             <Education />
           </section>
-          <section id="projects" className="scroll-mt-[6.5em]">
+          <section id="projects" className="scroll-mt-[4em] md:scroll-mt-[0em]">
             <Projects />
           </section>
-          <section id="technologies" className="scroll-mt-[6.5em]">
+          <section id="technologies" className="scroll-mt-[4em] md:scroll-mt-[0em]">
             <TechnologiesAndSkills />
           </section>
-          <section id="certifications" className="scroll-mt-[6.5em]">
+          <div className="h-4 md:h-0"/>
+          <section id="certifications" className="scroll-mt-[4em] md:scroll-mt-[0em]">
             <Certifications />
           </section>
           <div className="h-[1.5rem]"></div>

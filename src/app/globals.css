@@ -70,6 +70,23 @@ body {
            text-transparent
            bg-clip-text
   }
+  .text-pink-r {
+  @apply bg-gradient-to-r
+         from-[#ffe4f0]
+         via-[#f6a3c6]
+         to-[#e56b9f]
+         text-transparent
+         bg-clip-text
+  }
+  .text-red-r {
+  @apply bg-gradient-to-r
+         from-[#fff3f3]
+         via-[#ffd1d1]
+         via-[#ff9b9b]
+         to-[#e86a6a]
+         text-transparent
+         bg-clip-text;
+  }
   .bg-gold-l {
     @apply bg-gradient-to-l
            from-[#fff7c6]
@@ -104,11 +121,37 @@ body {
            via-[#b792ff]
            to-[#9f5bff]
   }
-  .bg-purple-b {
-    @apply bg-gradient-to-b
+  .bg-purple-t {
+    @apply bg-gradient-to-t
            from-[#d9c5ff]
            via-[#b792ff]
            to-[#9f5bff]
+  }
+  .bg-pink-r {
+  @apply bg-gradient-to-r
+         from-[#ffe4f0]
+         via-[#f6a3c6]
+         to-[#e56b9f]
+  }
+  .bg-pink-b {
+  @apply bg-gradient-to-b
+         from-[#ffe4f0]
+         via-[#f6a3c6]
+         to-[#e56b9f]
+  }
+  .bg-red-r {
+  @apply bg-gradient-to-r
+         from-[#fff3f3]
+         via-[#ffd1d1]
+         via-[#ff9b9b]
+         to-[#e86a6a]
+  }
+  .bg-red-t {
+  @apply bg-gradient-to-t
+         from-[#fff3f3]
+         via-[#ffd1d1]
+         via-[#ff9b9b]
+         to-[#e86a6a]
   }
   .bg-gray-br {
     @apply bg-gradient-to-br

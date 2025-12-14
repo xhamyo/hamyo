@@ -64,7 +64,7 @@ export default function Certifications() {
       </div>
 
       {/* Timeline. */}
-      <div className="hidden lg:block absolute top-[5%] left-1/2 -translate-x-1/2 w-[3px] h-[90%] bg-purple-b rounded-full" />
+      <div className="hidden lg:block absolute top-[5%] left-1/2 -translate-x-1/2 w-[3px] h-[90%] bg-red-t rounded-full" />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12 justify-between auto-cols-min">
         {certifications.map((item, id) =>
@@ -73,7 +73,7 @@ export default function Certifications() {
               <div className="sm: pb-8">
 
                 {/* TIMELINE DOT (large screens only) */}
-                <div className={`hidden lg:block absolute left-1/2 translate-y-[3.5rem] -translate-x-1/2 w-4 h-4 rounded-full bg-purple-r shadow-[0_0_10px_3px_rgba(180,120,255,0.8)]`}/>
+                <div className={`hidden lg:block absolute left-1/2 translate-y-[3.5rem] -translate-x-1/2 w-4 h-4 rounded-full bg-red-r shadow-[0_0_10px_3px_rgba(255,179,179,0.7)]`}/>
     
                 <div className={`p-6 flex flex-col space-y-3 rounded-lg transition duration-300 hover:scale-105 ${item.rotate} bg-gray-br outline outline-zinc-800`}>
                   {/* Icon, Entity, Title. */}
@@ -89,14 +89,14 @@ export default function Certifications() {
 
                   {/* Date, Grade. (SMALL)*/}
                   <div className="lg:hidden flex flex-row flex-wrap gap-x-3 gap-y-1.5 text-xs">
-                    <div className="group w-fit h-fit p-0.5 rounded-lg bg-purple-r hover:scale-[1.01] hover:bg-gold-r">
+                    <div className="group w-fit h-fit p-0.5 rounded-lg bg-red-r hover:scale-[1.01] hover:bg-gold-r">
                       <div className="px-1.5 py-0.5 rounded-md bg-zinc-900">
-                        <h2 className="font-bold text-purple-r group-hover:text-gold-r">{item.date}</h2>
+                        <h2 className="font-bold text-red-r group-hover:text-gold-r">{item.date}</h2>
                       </div>
                     </div>
-                    <a href={item.link} target="_blank" className="group w-fit h-fit p-0.5 rounded-lg bg-purple-r hover:scale-[1.01] hover:bg-gold-r">
+                    <a href={item.link} target="_blank" className="group w-fit h-fit p-0.5 rounded-lg bg-red-r hover:scale-[1.01] hover:bg-gold-r">
                       <div className="flex flex-row  space-x-0.5 px-1.5 py-0.5 rounded-md bg-zinc-900">
-                        <h2 className="font-bold text-purple-r group-hover:text-gold-l">View</h2>
+                        <h2 className="font-bold text-red-r group-hover:text-gold-l">View</h2>
                         <h2 className="font-bold text-gold-l group-hover:text-white">Certificate</h2>
                       </div>
                     </a>
@@ -109,14 +109,14 @@ export default function Certifications() {
               <>
                 {/* Date, Grade. (LARGE)*/}
                 <div className={`hidden lg:flex flex-col pt-8 space-y-2 text-sm ${item.justify} transition duration-300`}>
-                  <div className={`group w-fit h-fit p-0.5 rounded-lg bg-purple-r hover:scale-[1.01] ${item.rotate} hover:bg-gold-r`}>
+                  <div className={`group w-fit h-fit p-0.5 rounded-lg bg-red-r hover:scale-[1.01] ${item.rotate} hover:bg-gold-r`}>
                     <div className="px-1.5 py-0.5 rounded-md bg-zinc-900">
-                      <h2 className="font-bold text-purple-r group-hover:text-gold-r">{item.date}</h2>
+                      <h2 className="font-bold text-red-r group-hover:text-gold-r">{item.date}</h2>
                     </div>
                   </div>
-                  <a href={item.link} target="_blank" className={`group w-fit h-fit p-0.5 rounded-lg bg-purple-r hover:scale-[1.01] ${item.rotate} hover:bg-gold-r`}>
+                  <a href={item.link} target="_blank" className={`group w-fit h-fit p-0.5 rounded-lg bg-red-r hover:scale-[1.01] ${item.rotate} hover:bg-gold-r`}>
                     <div className="flex flex-row space-x-0.5 px-1.5 py-0.5 rounded-md bg-zinc-900">
-                      <h2 className="font-bold text-purple-r group-hover:text-gold-l">View</h2>
+                      <h2 className="font-bold text-red-r group-hover:text-gold-l">View</h2>
                       <h2 className="font-bold text-gold-l group-hover:text-white">Certificate</h2>
                     </div>
                   </a>
