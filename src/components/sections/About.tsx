@@ -100,7 +100,7 @@ export default function About() {
                 animate={{ y: "0%", opacity: 1 }}
                 exit={{ y: "-100%", opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="text-purple-m font-semibold w-[65vw] md:w-[38rem] md:h-[2rem]"
+                className="text-blue-r font-semibold w-[65vw] md:w-[38rem] md:h-[2rem]"
               >
                 {titles[index]}
               </motion.div>

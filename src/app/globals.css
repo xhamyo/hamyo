@@ -44,16 +44,6 @@ body {
           to-[#3b82f6]
           text-transparent bg-clip-text;
   }
-  .text-purple-m {
-    @apply bg-gradient-to-r
-           from-[#b792ff]
-           via-[#9f5bff]
-           via-[#7d2fe3]
-           via-[#5c14b8]
-           to-[#d9c5ff]
-           text-transparent
-           bg-clip-text
-  }
   .text-purple-l {
     @apply bg-gradient-to-l
            from-[#d9c5ff]

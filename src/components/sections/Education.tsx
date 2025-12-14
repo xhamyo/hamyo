@@ -9,7 +9,7 @@ const education = [
     grade: "4.36 / 5.00",
     grade_title: "GPA:",
     title:  <>
-              Bachelor of Computing (Honours) in<br/>Computer Science
+              Bachelor of Computing (Honours)<br/>in Computer Science
             </>,
     entity: "National University of Singapore",
     content:  <>
