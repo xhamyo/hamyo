@@ -7,7 +7,7 @@ const certifications = [
     icon: <Image alt="nus" src="/images/organisations/nus.png" width={500} height={500} className="min-w-[4rem] w-[4rem]" />,
     date: "2024",
     title: <>NUS Orbital 2024<br/>Apollo 11 (Advanced)</>,
-    entity: "National University of Singapore (NUS)",
+    entity: "National University of Singapore",
     content:"This course empowers students to engage in self-learning to develop practical applications using current technology, with a strong emphasis on adhering to software engineering principles.",
     link: "https://credentials.nus.edu.sg/c6149aa9-7e8a-4f85-8b88-3b4f44fd9f45#acc.50SsJbOc",
   },
