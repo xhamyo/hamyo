@@ -6,7 +6,7 @@ const education = [
     rotate: "hover:rotate-2",
     icon: <Image alt="nus" src="/images/organisations/nus.png" width={500} height={500} className="min-w-[4rem] w-[4rem]" />,
     date: "2023 - Present",
-    grade: "4.36 / 5.00",
+    grade: "4.38 / 5.00",
     grade_title: "GPA:",
     title:  <>
               Bachelor of Computing (Honours)<br/>in Computer Science
@@ -26,7 +26,7 @@ const education = [
     justify: "",
     rotate: "hover:-rotate-2",
     date: "2023 - Present",
-    grade: "4.36 / 5.00",
+    grade: "4.38 / 5.00",
     grade_title: "GPA:",
   },
   {

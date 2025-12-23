@@ -73,13 +73,13 @@ export default function Experience() {
     
                 <div className={`p-6 flex flex-col space-y-3 rounded-lg transition duration-300 hover:scale-105 ${item.rotate} bg-gray-br outline outline-zinc-800`}>
                   {/* Icon, Entity, Title. */}
-                  <div className="flex flex-row space-x-3 rounded-lg font-medium text-base justify-between">
+                  <div className="flex flex-row space-x-3 rounded-lg font-medium text-base">
+                    <div>
+                      {item.icon}
+                    </div>                   
                     <div className="flex flex-col text-left">
                       <h2 className="font-bold text-sm italic">{item.entity}</h2>
                       <h2 className="font-bold text-gold-r">{item.title}</h2>
-                    </div>
-                    <div>
-                      {item.icon}
                     </div>
                   </div>
 
