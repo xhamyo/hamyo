@@ -175,6 +175,10 @@ const projects = [
   },
 ]
 
+function projectImageSrc(path: string) {
+  return `/images/projects/${path}.png`;
+}
+
 export default function Projects() {
   const [ imageIndices, setImageIndices ] = useState(projects.map(() => 0));
 
@@ -211,6 +215,15 @@ export default function Projects() {
                 <div className={`p-3 flex flex-col space-y-3 rounded-lg transition duration-300 hover:scale-105 ${item.rotate} bg-gray-br outline outline-zinc-800`}>
                   {/* Images, Description. */}
                   <div className="flex flex-col relative overflow-hidden">
+                    <Image
+                      alt=""
+                      aria-hidden
+                      src={projectImageSrc(item.imagePaths[(imageIndices[id] + 1) % item.imagePaths.length])}
+                      width={1920}
+                      height={1080}
+                      className="hidden"
+                      loading="eager"
+                    />
                     <AnimatePresence mode="popLayout">
                       <motion.div
                         key={imageIndices[id]}
@@ -219,7 +232,15 @@ export default function Projects() {
                         exit={{ x: "-100%", opacity: 1 }}
                         transition={{ duration: 1.0 }}
                       >
-                        <Image alt={item.imagePaths[imageIndices[id]]} src={`/images/projects/${item.imagePaths[imageIndices[id]]}.png`} width={1920} height={1080} className="w-full"/>
+                        <Image
+                          alt={item.imagePaths[imageIndices[id]]}
+                          src={projectImageSrc(item.imagePaths[imageIndices[id]])}
+                          width={1920}
+                          height={1080}
+                          className="w-full"
+                          priority={imageIndices[id] === 0}
+                          loading="eager"
+                        />
                       </motion.div>
                     </AnimatePresence>
                     <div className="h-2"/>
