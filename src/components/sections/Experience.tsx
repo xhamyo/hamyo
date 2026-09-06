@@ -6,14 +6,17 @@ const experience = [
     rotate: "hover:rotate-2",
     icon: <Image alt="tiktok" src="/images/organisations/tiktok.png" width={500} height={500} className="min-w-[4rem] w-[4rem]" />,
     date: "Jan 2026 - Present",
-    title: <>Mobile Software Engineer Intern<br/>Social</>,
+    title: <>Software Engineer Intern<br/>Social Messaging (iOS)</>,
     entity: "TikTok Pte. Ltd.",
     content:  <>
                 <p className="mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span className="font-bold text-purple-r">sed do eiusmod tempor incididunt</span> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Implemented a backward-compatible, <span className="font-bold text-purple-l">server-driven emoji system</span> adopted across core TikTok product surfaces, including direct messaging, comments, and reposts. Built a <span className="font-bold text-purple-r">versioned, locale-aware resource manager</span> supporting emoji updates and thread-safe snapshot reads. Added <span className="font-bold text-purple-r">image prefetching and bitmap caching</span> to reduce loading delays and avoid repeated decoding during rendering.
                 </p>
                 <p className="mt-2">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span className="font-bold text-purple-l">Excepteur sint occaecat cupidatat</span> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Developed a <span className="font-bold text-purple-l">three-tab multimedia gallery</span> in chat details for shared videos, private media, and shared collections, with on-demand pagination as users scroll. Implemented <span className="font-bold text-purple-r">observer-driven synchronisation</span> to keep gallery content current as messages are added, updated, or deleted, without requiring manual refresh.
+                </p>
+                <p className="mt-2">
+                  Delivered bug fixes and codebase improvements across TikTok&apos;s iOS direct messaging experience. Refactored the <span className="font-bold text-purple-l">video launch flow</span> by extracting an immutable configuration and builder, <span className="font-bold text-purple-r">unifying 35 call sites</span> behind a shared interface and deprecating 15 duplicated APIs.
                 </p>
               </>,
   },

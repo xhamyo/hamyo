@@ -14,7 +14,7 @@ const education = [
     entity: "National University of Singapore",
     content:  <>
                 <p className="mt-2">
-                  <span className="font-bold text-blue-r">Relevant Coursework:</span> Software Engineering, Artificial Intelligence and Machine Learning, Computer Networks, Parallel Computing, Operating Systems, Computer Organisation, Design & Analysis of Algorithms, Programming Methodology, and Data Structures & Algorithms
+                  <span className="font-bold text-blue-r">Relevant Coursework:</span> Software Engineering, Artificial Intelligence and Machine Learning, Computer Architecture, Parallel Computing, Concurrent Programming, Operating Systems, Computer Organisation, Internet Architecture, Computer Networks, Design & Analysis of Algorithms, Programming Methodology, and Data Structures & Algorithms
                 </p>
                 <p className="mt-2">
                   <span className="font-bold text-blue-l">Notable Commitments:</span> Computing Rag & Flag 2023 (Silver), NUS Climbing Club Member 2024, OGL for Computing Freshman Social Camp 2024 and Psychology Camp 2024

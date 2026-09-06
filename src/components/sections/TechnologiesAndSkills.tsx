@@ -9,7 +9,7 @@ const techs = [
   {
     icon: <SiLeetcode />,
     title: "LeetCode",
-    text: "436 Solved",
+    text: "455 Solved",
   },
   {
     icon: <FaMicrochip />,
